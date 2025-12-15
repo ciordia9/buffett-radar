@@ -4,15 +4,25 @@
     "start": "2025-12-15",
     "end": "2025-12-21"
   },
-  "timestamp": "2025-12-15T10:51:34.696476",
+  "timestamp": "2025-12-15T11:15:00.000000",
   "sec_filings": {
-    "new_filings": [],
+    "new_filings": [
+      {
+        "type": "8-K",
+        "date": "2025-12-11",
+        "items": ["5.02", "9.01"],
+        "description": "CFO succession announcement: Marc Hamburg retiring June 2025 after 40 years; Charles Chang (BHE CFO) appointed successor. Also announced Todd Combs departure to JPMorgan Chase.",
+        "significance": "high",
+        "accession": "0001193125-25-314935"
+      }
+    ],
     "latest_13f": {
       "date": "2025-11-14",
       "quarter": "Q3-2025",
       "total_value": 267300000000,
       "holdings_count": 45
-    }
+    },
+    "next_13f_expected": "2026-02-14"
   },
   "berkshire_stock": {
     "brk_b": {
@@ -25,21 +35,24 @@
     }
   },
   "cash_position": {
-    "total_cash_billions": 382,
-    "as_of_date": "2025-09-30",
-    "quarter": "Q3-2025",
-    "qoq_change_billions": 28,
-    "cash_to_equity_ratio": 1.43
+    "total_cash_billions": 392,
+    "as_of_date": "2025-12-15",
+    "quarter": "Q4-2025 (estimated)",
+    "qoq_change_billions": 10,
+    "cash_to_equity_ratio": 1.47,
+    "note": "Updated estimate based on Yahoo Finance reporting; official Q4 figures expected Feb 2026"
   },
   "buyback_activity": {
     "last_buyback_date": "2024-05-31",
     "months_since_buyback": 18,
-    "ytd_buybacks_billions": 0
+    "ytd_buybacks_billions": 0,
+    "interpretation": "Longest buyback pause in Berkshire history signals Buffett sees BRK as fairly valued or prefers to preserve cash for opportunities"
   },
   "portfolio_changes": {
     "new_positions": [],
     "major_reductions": [],
-    "exits": []
+    "exits": [],
+    "note": "No new 13F this week. Net seller for 12 consecutive quarters."
   },
   "top_holdings_performance": [
     {
@@ -49,7 +62,8 @@
       "portfolio_pct": 22.6,
       "price": 274.17,
       "weekly_change_pct": -1.09,
-      "value_billions": 60.7
+      "value_billions": 60.7,
+      "note": "Tech weakness continues; Buffett has been reducing position"
     },
     {
       "rank": 2,
@@ -58,7 +72,8 @@
       "portfolio_pct": 11.0,
       "price": 55.62,
       "weekly_change_pct": 3.89,
-      "value_billions": 35.0
+      "value_billions": 35.0,
+      "note": "Strong week for financials; rate expectations supportive"
     },
     {
       "rank": 3,
@@ -67,7 +82,8 @@
       "portfolio_pct": 18.8,
       "price": 383.27,
       "weekly_change_pct": 5.32,
-      "value_billions": 49.5
+      "value_billions": 49.5,
+      "note": "Top performer this week; consumer spending remains strong"
     },
     {
       "rank": 4,
@@ -76,7 +92,8 @@
       "portfolio_pct": 9.9,
       "price": 70.93,
       "weekly_change_pct": 1.2,
-      "value_billions": 18.8
+      "value_billions": 18.8,
+      "note": "Defensive holding steady"
     },
     {
       "rank": 5,
@@ -85,7 +102,8 @@
       "portfolio_pct": 7.1,
       "price": 149.2,
       "weekly_change_pct": 0.47,
-      "value_billions": 9.6
+      "value_billions": 9.6,
+      "note": "Energy flat; oil prices stable"
     },
     {
       "rank": 6,
@@ -94,7 +112,8 @@
       "portfolio_pct": 4.7,
       "price": 40.17,
       "weekly_change_pct": -2.75,
-      "value_billions": 12.0
+      "value_billions": 12.0,
+      "note": "Worst performer; energy sector weakness"
     },
     {
       "rank": 7,
@@ -103,7 +122,8 @@
       "portfolio_pct": 4.4,
       "price": 488.41,
       "weekly_change_pct": 0.42,
-      "value_billions": 11.5
+      "value_billions": 11.5,
+      "note": "Stable; benefits from credit market activity"
     },
     {
       "rank": 8,
@@ -112,7 +132,8 @@
       "portfolio_pct": 3.3,
       "price": 311.75,
       "weekly_change_pct": 3.5,
-      "value_billions": 8.8
+      "value_billions": 8.8,
+      "note": "Insurance sector strong; supports Berkshire thesis"
     },
     {
       "rank": 9,
@@ -121,7 +142,8 @@
       "portfolio_pct": 3.2,
       "price": 24.46,
       "weekly_change_pct": 0.95,
-      "value_billions": 8.5
+      "value_billions": 8.5,
+      "note": "Consumer staples holding steady"
     },
     {
       "rank": 10,
@@ -130,18 +152,114 @@
       "portfolio_pct": 1.6,
       "price": 307.97,
       "weekly_change_pct": -2.87,
-      "value_billions": 4.3
+      "value_billions": 4.3,
+      "note": "Tech weakness; AI concerns"
     }
   ],
-  "news_events": [],
+  "news_events": [
+    {
+      "date": "2025-12-11",
+      "type": "leadership",
+      "headline": "Todd Combs departs Berkshire for JPMorgan Chase",
+      "source": "CNBC",
+      "significance": "high",
+      "summary": "Combs leaving to head JPM's $10B Strategic Investment Group. Raises questions about portfolio management succession. Buffett praised him for GEICO turnaround.",
+      "url": "https://www.cnbc.com/2025/12/13/end-of-the-berkshire-way-combs-departure-isnt-only-big-change-as-buffett-transition-nears-.html"
+    },
+    {
+      "date": "2025-12-11",
+      "type": "leadership",
+      "headline": "Berkshire appoints first-ever General Counsel",
+      "source": "CNBC",
+      "significance": "medium",
+      "summary": "Michael O'Sullivan (ex-Snap, Munger Tolles) becomes Berkshire's first general counsel. Signals move toward more conventional corporate structure."
+    },
+    {
+      "date": "2025-12-15",
+      "type": "market",
+      "headline": "Berkshire cash pile reaches $392 billion",
+      "source": "Yahoo Finance",
+      "significance": "high",
+      "summary": "Cash position up 200% over 3 years. 12 consecutive quarters as net seller. CAPE ratio at 25-year high (39+). Buffett's clearest bearish signal.",
+      "url": "https://finance.yahoo.com/news/2026-gets-closer-warren-buffetts-153700318.html"
+    },
+    {
+      "date": "2025-12-15",
+      "type": "leadership",
+      "headline": "Greg Abel profiled as incoming CEO",
+      "source": "Reuters",
+      "significance": "medium",
+      "summary": "Abel taking over CEO role in less than 3 weeks. Already exercising more management oversight than Buffett ever did over operating companies."
+    }
+  ],
   "market_signals": {
     "cash_hoard_signal": "maximum_caution",
     "buyback_signal": "bearish",
     "portfolio_activity": "net_seller",
-    "overall_sentiment": "defensive"
+    "overall_sentiment": "defensive",
+    "cape_ratio": 39,
+    "cape_percentile": "99th (25-year high)"
   },
   "analyst_notes": {
-    "key_takeaways": [],
-    "week_over_week_changes": []
+    "key_takeaways": [
+      "Leadership transition accelerating: Combs departure, new CFO, first-ever General Counsel signals Berkshire moving toward conventional corporate structure",
+      "Cash position now estimated at $392B (up from $382B at Q3), representing 200% increase over 3 years and all-time high",
+      "12 consecutive quarters as net seller of stocks - unprecedented in Berkshire history",
+      "CAPE ratio at 39+ (25-year high) validates Buffett's defensive posture",
+      "Financials (AXP +5.3%, BAC +3.9%, CB +3.5%) outperformed tech (AAPL -1.1%, GOOGL -2.9%) this week - classic late-cycle rotation pattern"
+    ],
+    "week_over_week_changes": [
+      "BRK.B bounced +2.67% after two weeks of weakness",
+      "vs S&P 500 gap narrowed from -8.99pp to -5.80pp (improvement)",
+      "Cash position estimate increased from $382B to $392B based on latest reporting",
+      "Major leadership changes announced (Combs, CFO, General Counsel)"
+    ],
+    "top_holdings_analysis": {
+      "winners": "Financials dominated: AXP (+5.32%), BAC (+3.89%), CB (+3.50%). This is a classic late-cycle rotation pattern where investors take profits in tech and rotate to value/financials.",
+      "losers": "Tech and energy weak: GOOGL (-2.87%), OXY (-2.75%), AAPL (-1.09%). AI-related stocks under pressure; energy flat on stable oil prices.",
+      "interpretation": "The outperformance of Berkshire's financial holdings supports the year-end rebalancing thesis. However, this is tactical, not strategic - no evidence Buffett is changing his defensive posture."
+    },
+    "forward_looking": {
+      "watch_next_week": [
+        "Year-end rebalancing flows (could support BRK)",
+        "Any additional leadership announcements before Buffett steps down",
+        "Market reaction to Fed commentary"
+      ],
+      "q4_expectations": [
+        "Cash likely to exceed $400B",
+        "Continued net selling probable",
+        "No buyback resumption expected"
+      ]
+    },
+    "predictions": [
+      {
+        "prediction": "BRK.B will continue to underperform S&P 500 through year-end",
+        "confidence": 0.65,
+        "rationale": "Tech momentum likely to persist into year-end despite this week's weakness",
+        "check_date": "2025-12-31"
+      },
+      {
+        "prediction": "Cash position will exceed $400B by Q4 2025 report",
+        "confidence": 0.80,
+        "rationale": "Current trajectory ($382B Q3 + continued selling) supports this",
+        "check_date": "2026-02-28"
+      },
+      {
+        "prediction": "No buyback activity will be announced before Buffett steps down",
+        "confidence": 0.90,
+        "rationale": "18-month pause unlikely to break in final 3 weeks",
+        "check_date": "2025-12-31"
+      }
+    ],
+    "historical_context": {
+      "9_week_performance": {
+        "average_vs_sp500": "-6.35pp",
+        "worst_week": "W44 (-11.82pp)",
+        "best_week": "W47 (-1.98pp)",
+        "current_week": "W51 (-5.80pp)",
+        "trend": "Persistent underperformance with no clear reversal signal"
+      },
+      "interpretation": "Buffett is willing to accept short-term underperformance rather than participate in what he views as an overvalued market. This mirrors his behavior in 1999-2000 before the dot-com crash."
+    }
   }
 }
