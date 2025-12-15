@@ -1,0 +1,55 @@
+{
+  "current_week": "2025-W51",
+  "previous_week": "2025-W50",
+  "comparison_date": "2025-12-15T10:51:36.551667",
+  "changes": [
+    {
+      "metric": "BRK.B Price",
+      "current": "$504.54",
+      "previous": "$495.85",
+      "change": "$+8.69 (+1.75%)",
+      "significance": "medium"
+    },
+    {
+      "metric": "YTD Return",
+      "current": "11.85%",
+      "previous": "9.92%",
+      "change": "+1.93 pp",
+      "significance": "medium"
+    },
+    {
+      "metric": "vs S&P 500 (YTD)",
+      "current": "-5.80 pp",
+      "previous": "-8.99 pp",
+      "change": "+3.19 pp",
+      "significance": "high"
+    },
+    {
+      "metric": "Top Mover #1",
+      "current": "AXP (American Express)",
+      "previous": "-",
+      "change": "+5.32%",
+      "significance": "high"
+    },
+    {
+      "metric": "Top Mover #2",
+      "current": "BAC (Bank of America)",
+      "previous": "-",
+      "change": "+3.89%",
+      "significance": "medium"
+    },
+    {
+      "metric": "Top Mover #3",
+      "current": "CB (Chubb Ltd)",
+      "previous": "-",
+      "change": "+3.50%",
+      "significance": "medium"
+    }
+  ],
+  "summary": {
+    "total_changes": 6,
+    "critical_changes": 0,
+    "high_significance": 2,
+    "medium_significance": 4
+  }
+}

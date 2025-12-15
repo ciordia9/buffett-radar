@@ -1,10 +1,11 @@
 {
-  "week_id": "2025-W51",
+  "week_id": "2025-W45",
   "date_range": {
-    "start": "2025-12-15",
-    "end": "2025-12-21"
+    "start": "2025-11-03",
+    "end": "2025-11-09"
   },
-  "timestamp": "2025-12-15T10:51:34.696476",
+  "timestamp": "2025-11-03T10:45:59.937749",
+  "backfilled": true,
   "sec_filings": {
     "new_filings": [],
     "latest_13f": {
@@ -16,10 +17,10 @@
   },
   "berkshire_stock": {
     "brk_b": {
-      "price_close": 504.54,
-      "weekly_change_pct": 2.67,
-      "ytd_return_pct": 11.85,
-      "vs_sp500_ytd": -5.8,
+      "price_close": 499.06,
+      "weekly_change_pct": 4.92,
+      "ytd_return_pct": 10.63,
+      "vs_sp500_ytd": -5.14,
       "52week_high": 542.07,
       "52week_low": 440.1
     }
@@ -33,7 +34,7 @@
   },
   "buyback_activity": {
     "last_buyback_date": "2024-05-31",
-    "months_since_buyback": 18,
+    "months_since_buyback": 17,
     "ytd_buybacks_billions": 0
   },
   "portfolio_changes": {
@@ -47,8 +48,8 @@
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "portfolio_pct": 22.6,
-      "price": 274.17,
-      "weekly_change_pct": -1.09,
+      "price": 268.21,
+      "weekly_change_pct": -0.22,
       "value_billions": 60.7
     },
     {
@@ -56,8 +57,8 @@
       "ticker": "BAC",
       "company": "Bank of America",
       "portfolio_pct": 11.0,
-      "price": 55.62,
-      "weekly_change_pct": 3.89,
+      "price": 52.92,
+      "weekly_change_pct": -0.67,
       "value_billions": 35.0
     },
     {
@@ -65,8 +66,8 @@
       "ticker": "AXP",
       "company": "American Express",
       "portfolio_pct": 18.8,
-      "price": 383.27,
-      "weekly_change_pct": 5.32,
+      "price": 368.54,
+      "weekly_change_pct": 1.91,
       "value_billions": 49.5
     },
     {
@@ -74,8 +75,8 @@
       "ticker": "KO",
       "company": "Coca-Cola",
       "portfolio_pct": 9.9,
-      "price": 70.93,
-      "weekly_change_pct": 1.2,
+      "price": 70.06,
+      "weekly_change_pct": 3.8,
       "value_billions": 18.8
     },
     {
@@ -83,8 +84,8 @@
       "ticker": "CVX",
       "company": "Chevron",
       "portfolio_pct": 7.1,
-      "price": 149.2,
-      "weekly_change_pct": 0.47,
+      "price": 153.31,
+      "weekly_change_pct": 0.64,
       "value_billions": 9.6
     },
     {
@@ -92,8 +93,8 @@
       "ticker": "OXY",
       "company": "Occidental Petroleum",
       "portfolio_pct": 4.7,
-      "price": 40.17,
-      "weekly_change_pct": -2.75,
+      "price": 41.07,
+      "weekly_change_pct": 0.95,
       "value_billions": 12.0
     },
     {
@@ -101,7 +102,7 @@
       "ticker": "MCO",
       "company": "Moody's",
       "portfolio_pct": 4.4,
-      "price": 488.41,
+      "price": 487.01,
       "weekly_change_pct": 0.42,
       "value_billions": 11.5
     },
@@ -110,8 +111,8 @@
       "ticker": "CB",
       "company": "Chubb Ltd",
       "portfolio_pct": 3.3,
-      "price": 311.75,
-      "weekly_change_pct": 3.5,
+      "price": 287.55,
+      "weekly_change_pct": 3.34,
       "value_billions": 8.8
     },
     {
@@ -119,8 +120,8 @@
       "ticker": "KHC",
       "company": "Kraft Heinz",
       "portfolio_pct": 3.2,
-      "price": 24.46,
-      "weekly_change_pct": 0.95,
+      "price": 23.9,
+      "weekly_change_pct": -0.21,
       "value_billions": 8.5
     },
     {
@@ -128,8 +129,8 @@
       "ticker": "GOOGL",
       "company": "Alphabet",
       "portfolio_pct": 1.6,
-      "price": 307.97,
-      "weekly_change_pct": -2.87,
+      "price": 278.65,
+      "weekly_change_pct": -1.72,
       "value_billions": 4.3
     }
   ],
@@ -141,7 +142,9 @@
     "overall_sentiment": "defensive"
   },
   "analyst_notes": {
-    "key_takeaways": [],
+    "key_takeaways": [
+      "Historical data - backfilled"
+    ],
     "week_over_week_changes": []
   }
 }
