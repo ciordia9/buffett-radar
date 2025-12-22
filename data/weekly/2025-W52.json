@@ -1,0 +1,265 @@
+{
+  "week_id": "2025-W52",
+  "date_range": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "timestamp": "2025-12-22T06:05:50.471750",
+  "sec_filings": {
+    "new_filings": [
+      {
+        "note": "No new SEC filings in the past 7 days (Dec 15-22). Most recent filing was Dec 11 (8-K on CFO succession and Todd Combs departure, already captured in W51). Typical for holiday week."
+      }
+    ],
+    "latest_13f": {
+      "date": "2025-11-14",
+      "quarter": "Q3-2025",
+      "total_value": 267300000000,
+      "holdings_count": 45
+    },
+    "next_13f_expected": "2026-02-14",
+    "next_major_filing": "Q4 2025 10-K expected late February 2026"
+  },
+  "berkshire_stock": {
+    "brk_b": {
+      "price_close": 494.53,
+      "weekly_change_pct": -2.34,
+      "ytd_return_pct": 9.63,
+      "vs_sp500_ytd": -8.15,
+      "52week_high": 542.07,
+      "52week_low": 440.1
+    }
+  },
+  "cash_position": {
+    "total_cash_billions": 382,
+    "as_of_date": "2025-09-30",
+    "quarter": "Q3-2025",
+    "qoq_change_billions": 28,
+    "cash_to_equity_ratio": 1.43
+  },
+  "buyback_activity": {
+    "last_buyback_date": "2024-05-31",
+    "months_since_buyback": 18,
+    "ytd_buybacks_billions": 0
+  },
+  "portfolio_changes": {
+    "new_positions": [],
+    "major_reductions": [],
+    "exits": []
+  },
+  "top_holdings_performance": [
+    {
+      "rank": 1,
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "portfolio_pct": 22.6,
+      "price": 273.67,
+      "weekly_change_pct": -0.16,
+      "value_billions": 60.7
+    },
+    {
+      "rank": 2,
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "portfolio_pct": 11.0,
+      "price": 55.27,
+      "weekly_change_pct": -0.11,
+      "value_billions": 35.0
+    },
+    {
+      "rank": 3,
+      "ticker": "AXP",
+      "company": "American Express",
+      "portfolio_pct": 18.8,
+      "price": 376.51,
+      "weekly_change_pct": -1.58,
+      "value_billions": 49.5
+    },
+    {
+      "rank": 4,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "portfolio_pct": 9.9,
+      "price": 70.06,
+      "weekly_change_pct": -1.28,
+      "value_billions": 18.8
+    },
+    {
+      "rank": 5,
+      "ticker": "CVX",
+      "company": "Chevron",
+      "portfolio_pct": 7.1,
+      "price": 147.75,
+      "weekly_change_pct": -1.37,
+      "value_billions": 9.6
+    },
+    {
+      "rank": 6,
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "portfolio_pct": 4.7,
+      "price": 39.62,
+      "weekly_change_pct": -1.42,
+      "value_billions": 12.0
+    },
+    {
+      "rank": 7,
+      "ticker": "MCO",
+      "company": "Moody's",
+      "portfolio_pct": 4.4,
+      "price": 503.08,
+      "weekly_change_pct": 3.2,
+      "value_billions": 11.5
+    },
+    {
+      "rank": 8,
+      "ticker": "CB",
+      "company": "Chubb Ltd",
+      "portfolio_pct": 3.3,
+      "price": 310.6,
+      "weekly_change_pct": -0.64,
+      "value_billions": 8.8
+    },
+    {
+      "rank": 9,
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "portfolio_pct": 3.2,
+      "price": 24.51,
+      "weekly_change_pct": 0.04,
+      "value_billions": 8.5
+    },
+    {
+      "rank": 10,
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "portfolio_pct": 1.6,
+      "price": 307.16,
+      "weekly_change_pct": -0.34,
+      "value_billions": 4.3
+    }
+  ],
+  "news_events": [
+    {
+      "date": "2025-12-20",
+      "type": "leadership",
+      "headline": "Wall Street offers advice for incoming CEO Greg Abel",
+      "source": "CNBC",
+      "significance": "high",
+      "summary": "With less than 2 weeks until Abel takes over, analysts suggest he focus on operating earnings, share reduction, and seizing opportunities. Boyar Research recommends Abel buy 'extremely large amount' of BRK stock personally. Expectations that Abel will impose more management oversight than Buffett's hands-off approach, with potential to 'cut fat' and consolidate divisions. BRK.B down 8.4% since May transition announcement.",
+      "url": "https://www.cnbc.com/2025/12/20/abel-takes-over-for-buffett-in-less-than-two-weeks-wall-street-has-some-advice-for-new-berkshire-ceo.html",
+      "key_quotes": [
+        "Don't try to be Warren Buffett" - Bill Stone, Glenview Trust CIO",
+        "Buffett is the greatest capital allocator and the greatest investor of all time. He's not known as the best manager of all time. Greg Abel might be able to do things that he couldn't or wouldn't do." - Jonathan Boyar"
+      ]
+    },
+    {
+      "date": "2025-12-21",
+      "type": "portfolio",
+      "headline": "Buffett sold 15% of Apple stake in Q3, buying Treasury bills",
+      "source": "The Motley Fool",
+      "significance": "high",
+      "summary": "Q3 saw another 15% reduction in Apple position due to valuation concerns (forward P/E ~34, third-highest of Mag 7) and tax strategy. Apple still 20.9% of portfolio. Berkshire held ~$305B in T-bills at Q3 end (purchased ~$19B during quarter), yielding 3.66% or ~$11B annually risk-free. Strategy reflects 'limited big-buck investment opportunities' while maintaining liquidity.",
+      "url": "https://www.fool.com/investing/2025/12/21/why-warren-buffett-just-sold-15-of-apple-and-is-pu/"
+    },
+    {
+      "date": "2025-12-21",
+      "type": "market",
+      "headline": "Analyst downgrades Berkshire to neutral, expects 2026 underperformance",
+      "source": "Seeking Alpha",
+      "significance": "medium",
+      "summary": "Steven Fiorillo downgrades BRK from bullish to neutral, citing likely underperformance in 'risk-on, tech-led 2026.' Concerns: (1) portfolio heavily weighted to cash/Treasuries/non-tech businesses, (2) declining Treasury yields will erode investment income, (3) equity portfolio underexposed to mega-cap tech vs S&P 500. SPY outperformed BRK by 7% in 2025. Awaiting evidence of strategic shifts under Abel.",
+      "url": "https://seekingalpha.com/article/4854917-berkshire-hathaway-may-continue-underperforming-in-2026"
+    },
+    {
+      "date": "2025-12-20",
+      "type": "operations",
+      "headline": "BNSF opposes Union Pacific-Norfolk Southern $85B merger",
+      "source": "CNBC",
+      "significance": "medium",
+      "summary": "BNSF CEO Katie Farmer says UP-NSC merger 'poses significant threat to U.S. economy and American consumer' by reducing competition. Buffett said in August Berkshire won't counter with BNSF-CSX merger, but announced collaboration for coast-to-coast shipping. Potential competitive pressure if merger approved.",
+      "url": "https://www.cnbc.com/2025/12/20/abel-takes-over-for-buffett-in-less-than-two-weeks-wall-street-has-some-advice-for-new-berkshire-ceo.html"
+    }
+  ],
+  "market_signals": {
+    "cash_hoard_signal": "maximum_caution",
+    "buyback_signal": "bearish",
+    "portfolio_activity": "net_seller",
+    "overall_sentiment": "defensive"
+  },
+  "analyst_notes": {
+    "key_takeaways": [
+      "Holiday week doldrums: BRK.B reversed W51 gains, down 2.34% while giving back prior week's +2.67% bounce",
+      "Underperformance gap vs S&P 500 widened from -5.80pp to -8.15pp - accelerating divergence validates bearish analyst concerns about tech underexposure",
+      "Sector rotation reversed: W51's financial strength (AXP +5.3%, BAC +3.9%) evaporated in W52 (AXP -1.6%, BAC -0.1%), suggesting choppy directionless market",
+      "Only Moody's (MCO +3.2%) showed strength, benefiting from credit market uncertainty",
+      "Energy weakness persists: OXY down 4.1% over two weeks, CVX declining - combined with BNSF rail merger threat, transportation/energy exposure under pressure",
+      "CEO transition T-minus 9 days: Market in 'wait and see' mode for Greg Abel era",
+      "Cash position clarification: Reverting to Q3 official $382B figure (W51's $392B estimate appears speculative)"
+    ],
+    "week_over_week_changes": [
+      "BRK.B: $504.54 → $494.53 (-2.34%), reversing prior week's +2.67% gain",
+      "YTD return: 11.85% → 9.63% (-2.22pp deterioration)",
+      "vs S&P 500 gap: -5.80pp → -8.15pp (widened by 2.35pp - getting worse)",
+      "Top performer: MCO +3.20% (only major gainer)",
+      "Biggest decliners: AXP -1.58%, OXY -1.42%, CVX -1.37%, KO -1.28%",
+      "Tech stabilization: AAPL -0.16% (vs -1.09% in W51), GOOGL -0.34% (vs -2.87% in W51)"
+    ],
+    "top_holdings_analysis": {
+      "winners": "Moody's (MCO +3.20%) was the sole standout, benefiting from strong credit market activity and economic uncertainty driving demand for ratings services.",
+      "losers": "Most holdings declined in holiday week trading. American Express (-1.58%) reversed from W51's +5.32% top performance. Energy sector showed persistent weakness with OXY (-1.42%, down 4.1% over two weeks) and CVX (-1.37%). Even defensive KO declined -1.28%.",
+      "interpretation": "The reversal of W51's financial sector strength suggests a choppy, directionless market rather than sustained sector rotation. Tech holdings stabilized (AAPL, GOOGL less negative) but couldn't drive portfolio performance. The breadth of declines across sectors reflects holiday week doldrums and lack of conviction ahead of year-end and CEO transition."
+    },
+    "forward_looking": {
+      "watch_next_week": [
+        "January 1, 2026: Greg Abel officially becomes CEO - potential for strategic announcements",
+        "Year-end portfolio rebalancing and tax-loss harvesting flows",
+        "Any Q4 portfolio moves disclosed in upcoming 13F (due Feb 14)",
+        "Market reaction to transition - will 'Buffett premium' disappear or will Abel optimism emerge?"
+      ],
+      "2026_outlook": [
+        "Key question: Will Abel's more active management style close the performance gap?",
+        "Potential catalysts: Operational improvements, tech allocation shift, cash deployment",
+        "Headwinds: Declining T-bill yields will erode $11B annual investment income, tech underexposure in growth-led market",
+        "Cash deployment watch: $382B+ dry powder if market corrects"
+      ]
+    },
+    "predictions": [
+      {
+        "prediction": "BRK.B will finish 2025 down 8-10% vs S&P 500 YTD",
+        "confidence": 0.75,
+        "rationale": "Currently -8.15pp with only 1 week left in year; unlikely to close gap in holiday trading",
+        "check_date": "2025-12-31"
+      },
+      {
+        "prediction": "Greg Abel will announce strategic initiatives within first 90 days as CEO",
+        "confidence": 0.70,
+        "rationale": "Wall Street expects more active management; Abel will want to establish his leadership style early",
+        "check_date": "2026-03-31"
+      },
+      {
+        "prediction": "No significant cash deployment in Q4 2025; cash will exceed $390B",
+        "confidence": 0.85,
+        "rationale": "12 consecutive quarters as net seller, Buffett unlikely to make major moves in final weeks, continued defensive posture",
+        "check_date": "2026-02-28"
+      },
+      {
+        "prediction": "Berkshire will continue reducing Apple position in Q4 2025",
+        "confidence": 0.80,
+        "rationale": "Q3 saw 15% reduction, valuation concerns persist (P/E ~34), tax strategy favors selling before potential rate changes",
+        "check_date": "2026-02-14"
+      }
+    ],
+    "historical_context": {
+      "10_week_performance": {
+        "average_vs_sp500": "-6.58pp",
+        "worst_week": "W44 (-11.82pp)",
+        "best_week": "W47 (-1.98pp)",
+        "current_week": "W52 (-8.15pp)",
+        "trend": "Persistent underperformance with widening gap in final weeks of 2025. W52 represents second-worst week in 10-week period."
+      },
+      "interpretation": "Berkshire's defensive posture is exacting a steep price in 2025's growth-led market. The widening gap in W52 suggests the market is pricing in concerns about the post-Buffett era and tech underexposure. This mirrors Buffett's 1999-2000 underperformance before dot-com crash, but the question is whether 2026 will vindicate his caution or continue the divergence."
+    },
+    "week_verdict": "Holiday Week Doldrums with Widening Performance Gap - Quiet week with no catalysts, BRK.B gave back W51 gains and underperformance accelerated. Market in 'wait and see' mode ahead of Jan 1 CEO transition."
+  }
+}
