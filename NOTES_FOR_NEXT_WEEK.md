@@ -81,10 +81,12 @@ The goal: Recognize when the story is changing **before** it's obvious to everyo
 ## Reminder for AI Agent:
 
 When you run next week's radar:
-1. Read `market_intelligence_log.json` first (Step 2.0)
-2. Stay curious—capture interesting ideas even if contradictory
-3. Note sentiment shifts and data patterns
-4. Update the log organically—no forcing
-5. If an inflection point emerges, highlight it
+1. Read `market_intelligence_log.json` first (Step 2.0 Part A)
+2. Read `my_positioning.json` second (Step 2.0 Part B) - understand the user's allocation and strategic questions
+3. Stay curious—capture interesting ideas even if contradictory
+4. Note sentiment shifts and data patterns
+5. Update the log organically—no forcing
+6. If an inflection point emerges, highlight it
+7. **Always provide personalized positioning assessment** at the end (Step 4.4)
 
-**Trust the process.** Over time, scattered observations will coalesce into clear patterns. Your job is to gather intelligence, not force interpretations.
+**Trust the process.** Over time, scattered observations will coalesce into clear patterns. Your job is to gather intelligence AND provide decision support tailored to the user's positioning.

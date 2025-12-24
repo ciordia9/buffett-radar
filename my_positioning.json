@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "purpose": "Reference positioning for personalized weekly analysis and decision support",
+    "update_frequency": "Update after major rebalances or strategic shifts",
+    "last_updated": "2025-12-20",
+    "privacy_note": "Private repo - general allocation percentages used for context"
+  },
+  "current_allocation": {
+    "as_of_date": "2025-12-20",
+    "total_portfolio_value": "$499K",
+    "strategy": "Buffett-style defensive positioning with value tilt",
+    "cash": {
+      "percentage": 21.5,
+      "amount": "$107K",
+      "vehicle": "SGOV (0-3 month Treasury bills)",
+      "current_yield": 4.5,
+      "annual_income": "$4,815",
+      "purpose": "Defensive dry powder for deployment at lower valuations"
+    },
+    "equity": {
+      "percentage": 78.5,
+      "amount": "$392K",
+      "tilt": "Value and small-cap emphasis",
+      "positions": {
+        "us_total_market": {
+          "ticker": "VTI",
+          "description": "Total US Stock Market",
+          "allocation": "43.6% of equity (34.2% of total portfolio)"
+        },
+        "us_small_cap_value": {
+          "ticker": "VIOV",
+          "description": "US Small Cap Value",
+          "allocation": "17.8% of equity (14.0% of total portfolio)",
+          "note": "Potential beneficiary of sector rotation to value"
+        },
+        "international_developed": {
+          "ticker": "VEA + VXUS",
+          "description": "Developed Markets International",
+          "allocation": "~30% of equity (23.5% of total portfolio)"
+        },
+        "emerging_markets": {
+          "ticker": "VWO + DLS + DGS",
+          "description": "Emerging Markets (including small-cap value)",
+          "allocation": "~21% of equity (16.5% of total portfolio)",
+          "note": "EM small-cap value (DLS/DGS) = 16.8% combined"
+        },
+        "treasury_hedge": {
+          "ticker": "EDV",
+          "description": "Extended Duration Treasury STRIPS",
+          "allocation": "7.1% of equity (5.6% of total portfolio)",
+          "note": "Long-duration hedge against deflation/recession"
+        },
+        "large_cap": {
+          "ticker": "VOO",
+          "description": "S&P 500",
+          "allocation": "8.0% of equity (6.3% of total portfolio)",
+          "note": "Reduced from 20% to raise cash"
+        }
+      }
+    }
+  },
+  "deployment_strategy": {
+    "philosophy": "Scale into market at progressively lower valuations, maintain some dry powder even at -50%",
+    "triggers": [
+      {
+        "level": 1,
+        "sp500_target": 4720,
+        "correction_percentage": -20,
+        "deploy_amount": "$26,782",
+        "deploy_percentage_of_cash": 25,
+        "alternative_triggers": [
+          "Buffett Indicator falls to 138%",
+          "Shiller PE falls to 25"
+        ]
+      },
+      {
+        "level": 2,
+        "sp500_target": 3800,
+        "correction_percentage": -36,
+        "deploy_amount": "$53,564",
+        "deploy_percentage_of_cash": 50,
+        "alternative_triggers": [
+          "Buffett Indicator falls to 113%",
+          "Shiller PE falls to 20"
+        ]
+      },
+      {
+        "level": 3,
+        "sp500_target": 2950,
+        "correction_percentage": -50,
+        "deploy_amount": "$26,782",
+        "deploy_percentage_of_cash": 25,
+        "alternative_triggers": [
+          "Buffett Indicator falls to 88%",
+          "Shiller PE falls to 15"
+        ]
+      }
+    ],
+    "current_sp500": "~5,900",
+    "distance_to_triggers": {
+      "level_1": "20% below current (4,720)",
+      "level_2": "36% below current (3,800)",
+      "level_3": "50% below current (2,950)"
+    }
+  },
+  "strategic_context": {
+    "rationale": "Market at extreme valuations (Buffett Indicator 222.9%, Shiller PE 40.23). Mirroring Buffett's defensive posture (30% cash) while maintaining equity exposure for upside participation.",
+    "comparison_to_berkshire": {
+      "my_cash": "21.5%",
+      "brk_cash": "30.0%",
+      "assessment": "Slightly less defensive than Buffett, reasonable for individual investor with longer time horizon"
+    },
+    "positioning_for_scenarios": {
+      "tech_led_rally": "78.5% equity exposure participates, though cash drag limits upside",
+      "sector_rotation": "Value tilt (VIOV, DLS/DGS) benefits; small-cap outperforms",
+      "market_correction": "21.5% cash protects downside; deployment triggers provide buying opportunity",
+      "slow_bleed": "Cash earns 4.5% risk-free while avoiding losses"
+    }
+  },
+  "decision_support_questions": {
+    "weekly_assessment": [
+      "Given this week's data, should I maintain 21.5% cash or adjust?",
+      "Are my deployment triggers reasonable given Berkshire's actions?",
+      "Is my value tilt validated or challenged by sector performance?",
+      "Are we approaching any deployment triggers (S&P 4,720 / 3,800 / 2,950)?",
+      "What would Buffett do differently given his 30% cash position?"
+    ],
+    "inflection_signals": [
+      "If Greg Abel deploys Berkshire's cash aggressively, should I reconsider my defensive stance?",
+      "If XLI/XLU start outperforming, should I increase VIOV/small-cap value exposure?",
+      "If BRK.B underperformance gap narrows, is that validation of defensive positioning?",
+      "If S&P drops 10%, should I deploy some cash early (before triggers)?"
+    ]
+  },
+  "monitoring": {
+    "price_alerts_set": [
+      "S&P 500: 4,720 (Level 1 deployment)",
+      "S&P 500: 3,800 (Level 2 deployment)",
+      "S&P 500: 2,950 (Level 3 deployment)"
+    ],
+    "monthly_checks": [
+      "Buffett Indicator (gurufocus.com)",
+      "Shiller PE (multpl.com)",
+      "Berkshire 13F filings (signals Buffett's moves)"
+    ]
+  },
+  "notes": [
+    "Completed 3-week defensive cash raise (Dec 2-20, 2025)",
+    "Target was 25% cash, achieved 21.5% (preserved EDV Treasury hedge)",
+    "Next major decision point: Jan 1, 2026 (Greg Abel takes over as Berkshire CEO)",
+    "Watching for sector rotation signals (XLI/XLU vs SPY performance)"
+  ]
+}

@@ -53,9 +53,11 @@ python3 scripts/update_weekly_data.py
 
 **CRITICAL:** For each step below, **write your findings directly into the relevant sections of the new weekly JSON file** (e.g., `data/weekly/2025-W52.json`).
 
-### Step 2.0: **NEW** - Review Intelligence Log
+### Step 2.0: **NEW** - Review Intelligence Log & Positioning
 
-**Objective:** Orient yourself to evolving ideas and sentiment before gathering new data.
+**Objective:** Orient yourself to evolving ideas and YOUR positioning before gathering new data.
+
+**Part A: Intelligence Context**
 
 - **Action:** Read `market_intelligence_log.json` to understand:
   - Recent ideas captured from analysts and commentary
@@ -63,6 +65,14 @@ python3 scripts/update_weekly_data.py
   - Data patterns emerging
   - Questions being asked
   - Evolving themes (cash position, Abel transition, sector dynamics, operating businesses)
+
+**Part B: Personal Positioning Context**
+
+- **Action:** Read `my_positioning.json` to understand:
+  - Current allocation (21.5% cash, 78.5% equity)
+  - Value tilt (VIOV, DLS/DGS small-cap value)
+  - Deployment triggers (S&P 4,720 / 3,800 / 2,950)
+  - Strategic questions for this week
   
 - **Mental Framework:** As you gather data in Steps 2.1-2.6, stay alert for:
   - New interesting ideas or perspectives (even if contradictory)
@@ -70,6 +80,7 @@ python3 scripts/update_weekly_data.py
   - Data patterns that confirm or challenge previous observations
   - Answers to open questions
   - Early signals of narrative shifts
+  - **How this week's developments impact YOUR positioning and decisions**
 
 ### Step 2.1: SEC Filings Sweep
 
@@ -220,8 +231,50 @@ git push origin main
   - Key quantitative data (BRK.B performance, cash position, top holdings)
   - Most significant news/events
   - SEC filing updates
-  - **NEW:** Competing narratives assessment - which thesis is gaining evidence this week?
+  - Intelligence log updates (new ideas, sentiment shifts, data patterns)
   - Any inflection points or pattern changes observed
+  - **NEW: Personalized Positioning Assessment** - See Step 4.4 below
+
+### Step 4.4: **NEW** - Personalized Positioning Assessment
+
+**Objective:** Provide tailored guidance based on this week's intelligence and YOUR positioning.
+
+- **Action:** Add a dedicated section to your report addressing:
+
+**1. Positioning Validation:**
+  - Does this week's data validate or challenge your 21.5% cash position?
+  - Is your value tilt (VIOV, DLS/DGS) aligned with emerging signals?
+  - How does your positioning compare to Berkshire's (21.5% vs 30% cash)?
+
+**2. Deployment Trigger Watch:**
+  - Current S&P 500 level vs your triggers (4,720 / 3,800 / 2,950)
+  - Distance to triggers (percentage)
+  - Any alternative trigger signals (Buffett Indicator, Shiller PE movements)
+
+**3. Strategic Questions:**
+  - Answer the decision support questions from `my_positioning.json`
+  - Should you maintain current allocation or consider adjustments?
+  - What would Buffett do differently given his 30% cash?
+
+**4. Action Items (if any):**
+  - Stay the course (most common)
+  - Consider adjustment (with specific rationale)
+  - Deployment trigger approaching (prepare for action)
+  - Update positioning file (if major rebalance occurred)
+
+**Format Example:**
+
+> **Your Positioning This Week:**
+> 
+> **Status:** Stay the course ✓
+> 
+> **Validation:** Your 21.5% cash position remains well-aligned with Buffett's defensive posture. This week's [specific data] supports maintaining dry powder.
+> 
+> **Deployment Watch:** S&P 500 at 5,850 (Level 1 trigger at 4,720 is 19% below current). No immediate action needed.
+> 
+> **Value Tilt Assessment:** [XLI/XLU performance data] suggests [rotation beginning / tech dominance continuing]. Your VIOV/DLS positions are [well-positioned / underperforming].
+> 
+> **Recommendation:** [Specific guidance based on this week's intelligence]
 
 ---
 
@@ -246,10 +299,12 @@ git push origin main
 
 - Read `NOTES_FOR_NEXT_WEEK.md` at the start of each radar execution for any special instructions
 - Read `market_intelligence_log.json` to understand the evolving landscape before gathering new data
+- Read `my_positioning.json` to understand the user's allocation and strategic questions
 - Capture interesting ideas even if they contradict each other—market uncertainty is valuable information
 - Don't force patterns or conclusions—let them emerge organically over time
 - If you observe a clear inflection point or sentiment shift, highlight it prominently
-- Remember: Intelligence gathering is about seeing what others miss, not predicting the future
+- Always provide personalized positioning assessment at the end (Step 4.4)
+- Remember: This is intelligence gathering AND decision support for the user's portfolio
 
 ---
 
