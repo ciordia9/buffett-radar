@@ -53,15 +53,23 @@ python3 scripts/update_weekly_data.py
 
 **CRITICAL:** For each step below, **write your findings directly into the relevant sections of the new weekly JSON file** (e.g., `data/weekly/2025-W52.json`).
 
-### Step 2.0: **NEW** - Load Competing Narratives Framework
+### Step 2.0: **NEW** - Review Intelligence Log
 
-**Objective:** Orient yourself to the ongoing thesis tracking before gathering new data.
+**Objective:** Orient yourself to evolving ideas and sentiment before gathering new data.
 
-- **Action:** Read `competing_narratives_2026.json` to understand the two competing theses about Berkshire's 2026 positioning:
-  - **Bear Case (Fiorillo):** Tech underexposure will cause continued underperformance
-  - **Bull Case (Socci):** Operating businesses (BNSF, BHE, Manufacturing) position BRK as perfect XLI/XLU sector rotation play
+- **Action:** Read `market_intelligence_log.json` to understand:
+  - Recent ideas captured from analysts and commentary
+  - Sentiment shifts in the market
+  - Data patterns emerging
+  - Questions being asked
+  - Evolving themes (cash position, Abel transition, sector dynamics, operating businesses)
   
-- **Mental Framework:** As you gather data in Steps 2.1-2.6, mentally tag evidence as "supporting" or "challenging" each thesis. You'll update the framework in Phase 3.
+- **Mental Framework:** As you gather data in Steps 2.1-2.6, stay alert for:
+  - New interesting ideas or perspectives (even if contradictory)
+  - Changes in sentiment or tone
+  - Data patterns that confirm or challenge previous observations
+  - Answers to open questions
+  - Early signals of narrative shifts
 
 ### Step 2.1: SEC Filings Sweep
 
@@ -72,7 +80,7 @@ python3 scripts/update_weekly_data.py
     - If a **13F** is found, detail the new, increased, decreased, and exited positions in the `portfolio_changes` section of the JSON.
     - For **8-K, 10-Q, or Form 4**, summarize the key information and add it to the `sec_filings.new_filings` array.
     - If no new filings, add a note to the `analyst_notes.key_takeaways`.
-- **Competing Narratives:** Note any portfolio changes that support/challenge either thesis (e.g., tech adds = bear case influence, industrial adds = bull case validation).
+- **Intelligence Notes:** Note any portfolio changes that signal strategic direction (tech adds? industrial adds? continued defensive posture?).
 
 ### Step 2.2: News & Commentary Intelligence
 
@@ -82,10 +90,10 @@ python3 scripts/update_weekly_data.py
 - **Enrichment:**
     - Add summaries of the top 1-3 most important stories to the `news_events` array in the JSON.
     - Include key quotes and your interpretation of their significance.
-- **Competing Narratives:** Watch for:
-  - Analyst upgrades/downgrades (which thesis do they support?)
-  - Greg Abel commentary or actions (tech focus vs operational focus?)
-  - Sector performance news (XLI/XLU strength = bull case, tech dominance = bear case)
+- **Intelligence Notes:** Watch for:
+  - Analyst sentiment shifts (upgrading? downgrading? changing reasoning?)
+  - Greg Abel commentary or actions (what's his focus?)
+  - Sector performance trends (which sectors getting attention?)
 
 ### Step 2.3: Top Holdings Deep Dive
 
@@ -94,9 +102,9 @@ python3 scripts/update_weekly_data.py
 - **Action:** For any outlier holdings (e.g., up >10% or down >5%), search for company-specific news that explains the movement.
 - **Enrichment:**
     - In the `analyst_notes` section, add a `top_holdings_analysis` field. Detail why the top movers performed as they did (e.g., "AAPL down 5% on news of delayed product launch.").
-- **Competing Narratives:** Track sector patterns:
-  - Tech holdings (AAPL, GOOGL) outperforming = bear case evidence
-  - Financial/industrial holdings (BAC, AXP) outperforming = potential rotation signal
+- **Intelligence Notes:** Track sector patterns:
+  - Which holdings are outperforming/underperforming?
+  - Any rotation signals emerging?
 
 ### Step 2.4: Berkshire Performance & Buyback Signal
 
@@ -106,9 +114,9 @@ python3 scripts/update_weekly_data.py
 - **Enrichment:**
     - In the `market_signals` section of the JSON, update the `buyback_signal` to "bullish", "bearish", or "neutral" based on the latest data.
     - In `analyst_notes`, comment on the significance of the weekly performance vs. the S&P 500.
-- **Competing Narratives:** 
-  - BRK.B underperformance gap widening = bear case winning
-  - BRK.B underperformance gap narrowing = bull case gaining traction
+- **Intelligence Notes:** 
+  - Is the performance gap widening or narrowing?
+  - What does the trend suggest about market sentiment?
 
 ### Step 2.5: Cash Position Analysis
 
@@ -118,10 +126,9 @@ python3 scripts/update_weekly_data.py
 - **Enrichment:**
     - In `market_signals`, update the `cash_hoard_signal` to "aggressive_deployment", "neutral", or "maximum_caution".
     - In `analyst_notes`, comment on the trajectory of the cash position (e.g., "Cash growth is accelerating, signaling increasing bearishness.").
-- **Competing Narratives:**
-  - Cash deployment into industrials/infrastructure = bull case validation
-  - Cash deployment into tech = bear case influencing Abel
-  - Continued cash hoarding = thesis remains unresolved
+- **Intelligence Notes:**
+  - Any cash deployment? Into what sectors?
+  - What does deployment pattern (or lack thereof) signal about strategy?
 
 ### Step 2.6: Public Statements & Executive Commentary
 
@@ -130,9 +137,9 @@ python3 scripts/update_weekly_data.py
 - **Action:** Search for recent interviews, conference appearances, or letters from Buffett or Abel.
 - **Enrichment:**
     - Add any new, significant quotes to the `news_events` array, along with your interpretation.
-- **Competing Narratives:** 
-  - Abel commentary on strategy, capital allocation, sector focus
-  - Any signals about his management style or priorities
+- **Intelligence Notes:** 
+  - What is Abel saying (or not saying)?
+  - What signals emerge about his style and priorities?
 
 ### Step 2.7: **NEW** - Operating Business Performance Check
 
@@ -146,51 +153,47 @@ python3 scripts/update_weekly_data.py
 - **Enrichment:**
     - Add relevant findings to `analyst_notes` or create a new `operating_business_signals` field if significant data emerges.
     
-- **Competing Narratives:**
-  - Volume acceleration + pricing power = bull case strengthening
-  - Volume declines + margin pressure = bull case weakening
+- **Intelligence Notes:**
+  - What do the operating trends suggest?
+  - Any inflection points in volume, pricing, or margins?
 
 ---
 
-## PHASE 3: COMPETING NARRATIVES UPDATE
+## PHASE 3: INTELLIGENCE LOG UPDATE
 
-**Objective:** Update the competing narratives framework with this week's evidence.
+**Objective:** Capture this week's interesting ideas, sentiment shifts, and data patterns.
 
-### Step 3.1: Update Evidence Logs
+### Step 3.1: Add Weekly Observations
 
-- **Action:** Open `competing_narratives_2026.json` and add new evidence to the appropriate thesis:
-  - `bear_case.evidence_log` - Add any data points that support the tech underexposure thesis
-  - `bull_case.evidence_log` - Add any data points that support the sector rotation thesis
+- **Action:** Open `market_intelligence_log.json` and add a new entry under `weekly_observations` for the current week.
   
-- **Format:** Each entry should have:
-  ```json
-  {
-    "week": "2025-W53",
-    "type": "supporting" or "challenging",
-    "data": "Brief description of the evidence"
-  }
-  ```
+- **Capture:**
+  - **ideas_captured:** Any interesting analyst views, articles, or perspectives you encountered (include source, summary, sentiment)
+  - **sentiment_shifts:** Changes in tone or consensus you noticed
+  - **data_patterns:** Notable trends in performance, operating businesses, or market behavior
+  - **questions_emerging:** New questions raised by this week's data
+  - **historical_parallels:** Any relevant comparisons to past periods
 
-### Step 3.2: Weekly Evaluation
+### Step 3.2: Update Evolving Themes
 
-- **Action:** Add a new entry to the `weekly_evaluation` section with:
-  - Current week's date and market context
-  - BRK.B performance vs SPY
-  - Sector performance observations (XLI, XLU vs SPY if available)
+- **Action:** Review the `evolving_themes` section and update if new information emerged:
+  - Cash position interpretation (new views?)
+  - Greg Abel transition (any signals?)
+  - Sector dynamics (rotation evidence? tech dominance continuing?)
   - Operating business signals (BNSF, BHE, Manufacturing updates)
-  - Assessment: "Which thesis is winning this week?" (can be "too early to call")
-  
-### Step 3.3: Inflection Point Watch
 
-- **Action:** Review the `inflection_points_to_watch` section and note if any occurred this week:
-  - Greg Abel announcements (starting Jan 1, 2026)
-  - 13F filing (Feb 14, 2026)
-  - Sector performance inflections
-  - Operating business trend changes
+### Step 3.3: Note Inflection Signals
+
+- **Action:** Check if any items in `inflection_signals_to_watch` occurred or showed movement:
+  - Abel announcements
+  - Portfolio changes
+  - Sector performance shifts
+  - Operating trend changes
+  - Cash deployment
 
 ### Step 3.4: Update Weekly JSON Reference
 
-- **Action:** In the weekly JSON file (e.g., `2025-W53.json`), update or add the `competing_narratives_note` field in `analyst_notes` to reference any significant developments in the thesis tracking.
+- **Action:** In the weekly JSON file (e.g., `2025-W53.json`), add a brief note in `analyst_notes` if any significant ideas or sentiment shifts emerged this week.
 
 ---
 
@@ -224,25 +227,29 @@ git push origin main
 
 ## Key Principles
 
-1. **Organic Evidence Accumulation:** Don't force conclusions about which thesis is winning. Let the evidence accumulate naturally.
+1. **Fluid Intelligence:** Capture interesting ideas, views, and sentiment shifts without forcing them into rigid frameworks. Contradictions are valuable—they show the market is uncertain.
 
-2. **Pattern Recognition Over Prediction:** We're not trying to predict which thesis will win. We're trying to recognize when the market signals which thesis IS winning.
+2. **Pattern Recognition:** Over time, patterns will emerge naturally. Watch for:
+   - Sentiment coalescence (multiple sources starting to agree)
+   - Data trend confirmation (patterns repeating week after week)
+   - Narrative shifts (what was consensus becomes contrarian, or vice versa)
 
-3. **Weekly Re-evaluation:** Each week, re-read the competing narratives framework with fresh eyes. Patterns will emerge over time.
+3. **Early Signal Detection:** The goal is to recognize when narratives are changing before it's obvious to everyone. Small shifts compound into major trends.
 
-4. **Early Signal Detection:** The goal is to be early in recognizing when one thesis starts winning, so we can adjust positioning before it's obvious to everyone.
+4. **No Premature Conclusions:** Don't rush to judgment. Let the evidence accumulate. When an inflection point arrives, it will be unmistakable.
 
-5. **Data-Driven Migration:** When inflection points emerge (e.g., "XLI outperformed SPY by 8% over 4 consecutive weeks + BNSF volumes accelerating + BRK.B gap narrowing"), the evidence will make the migration decision obvious.
+5. **Organic Coalescence:** Ideas that initially seem scattered will coalesce over time. Trust the process—your job is to gather intelligence, not force interpretations.
 
 ---
 
 ## Notes for AI Agent
 
 - Read `NOTES_FOR_NEXT_WEEK.md` at the start of each radar execution for any special instructions
-- The competing narratives framework is designed to be lightweight and flexible
-- Don't create rigid scoring systems—just accumulate evidence and note patterns
-- If you observe a clear inflection point, highlight it prominently in your report
-- Remember: Buffett's 1999-2000 underperformance looked wrong until the dot-com crash vindicated him. The same could happen here.
+- Read `market_intelligence_log.json` to understand the evolving landscape before gathering new data
+- Capture interesting ideas even if they contradict each other—market uncertainty is valuable information
+- Don't force patterns or conclusions—let them emerge organically over time
+- If you observe a clear inflection point or sentiment shift, highlight it prominently
+- Remember: Intelligence gathering is about seeing what others miss, not predicting the future
 
 ---
 

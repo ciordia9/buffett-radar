@@ -1,82 +1,90 @@
 # Notes for Week 2025-W53 Radar Execution
 
-## New This Week: Competing Narratives Framework
+## New This Week: Market Intelligence Log
 
-Starting with W52, we're tracking two competing theses about Berkshire's 2026 positioning:
+Starting with W52, we're capturing ideas, sentiment shifts, and emerging patterns in a fluid intelligence log.
 
-### File: `competing_narratives_2026.json`
+### File: `market_intelligence_log.json`
 
-**Purpose:** Organic accumulation of evidence for/against each thesis. No rigid scoring system—just pattern recognition.
+**Purpose:** Organic accumulation of interesting observations. No rigid frameworks—just intelligence gathering that helps us see when narratives are changing.
 
 **How to Use During Weekly Radar:**
 
-1. **Read the file first** before starting analysis (Phase 1 or 2)
-2. **As you gather data**, note any evidence that supports or challenges either thesis
-3. **Add to evidence_log** under appropriate thesis with week tag and "supporting" or "challenging" label
-4. **Update weekly_evaluation** section with new week's assessment
-5. **Don't force conclusions**—let inflection points emerge naturally
+1. **Read the file first** (Phase 2, Step 2.0) to understand the evolving landscape
+2. **As you gather data**, stay alert for:
+   - Interesting new ideas or perspectives (even if contradictory)
+   - Changes in sentiment or tone
+   - Data patterns confirming or challenging previous observations
+   - Answers to open questions
+   - Early signals of narrative shifts
+3. **Add to weekly_observations** with new week's entry
+4. **Update evolving_themes** if new information emerged
+5. **Note inflection signals** if any occurred
+6. **Don't force patterns**—let coalescence emerge naturally
 
-### The Two Theses:
+### What We're Tracking (Organically):
 
-**Bear Case (Fiorillo):** Tech underexposure = continued underperformance in tech-led 2026  
-**Bull Case (Socci):** Operating businesses (BNSF, BHE, Manufacturing) = perfect XLI/XLU sector rotation play
+**Ideas & Sentiment:**
+- Analyst views (bullish, bearish, changing?)
+- Wall Street consensus shifts
+- Contradictions (valuable—they show uncertainty)
 
-### Key Data Points to Watch Each Week:
+**Data Patterns:**
+- BRK.B performance trends
+- Sector rotation signals (or lack thereof)
+- Operating business trajectories (BNSF, BHE, Manufacturing)
+- Cash position changes
 
-**Stock Performance:**
-- BRK.B vs SPY gap (widening = bear case, narrowing = bull case)
-- XLI and XLU vs SPY performance (outperforming = bull case)
-- RSP vs SPY (equal-weight outperforming = bull case)
+**Evolving Themes:**
+- How is the market interpreting Berkshire's cash position?
+- What signals is Greg Abel sending (starting Jan 1)?
+- Are sectors rotating or is tech dominance continuing?
+- What are the operating businesses telling us?
 
-**Operating Business Signals:**
-- BNSF: Volume trends, pricing power, freight mix (especially industrial products)
-- BHE: Utility margins, retail volumes, capex deployment
-- Manufacturing: Industrial products segment (volumes, margins, earnings)
+**Questions:**
+- What questions are emerging from the data?
+- What uncertainties exist?
+- What would resolve those uncertainties?
 
-**Portfolio Moves (when 13F data available):**
-- Apple position changes (continued trimming = bear case validation)
-- New tech positions (= bear case influencing Abel)
-- New industrial/utility positions (= bull case validation)
-- Cash position trajectory
+### W52 Baseline (for context):
 
-**Greg Abel Actions (starting Jan 1, 2026):**
-- Any strategic announcements
-- First shareholder letter (Feb 2026)
-- Capital deployment decisions
-- Operational changes to business units
+**Ideas Captured:**
+- Fiorillo (bearish): Tech underexposure problem, cash is drag
+- Socci (bullish): Operating businesses = XLI/XLU sector rotation play
 
-### Important Inflection Points Coming:
+**Sentiment:** Wall Street divided on post-Buffett era
 
-1. **Jan 1, 2026:** CEO transition (W53 will capture this)
-2. **Feb 14, 2026:** Q4 2025 13F filing due
-3. **Late Feb 2026:** Q4 2025 10-K and annual shareholder letter
-4. **Q1 2026:** First full quarter under Abel, sector performance trends
+**Data Patterns:**
+- Stock underperformance accelerating (-8.15pp vs SPY)
+- Q3 operating fundamentals strong (BNSF +10%, BHE +9.9%, Manufacturing +24.3%)
+
+**Questions Emerging:**
+- Is market mispricing BRK by focusing on equity portfolio vs operating businesses?
+- Will 2026 be tech-led or sector rotation?
+- How will Abel's leadership differ?
+
+### Important Dates Coming:
+
+- **Jan 1, 2026:** CEO transition (W53 will capture this)
+- **Feb 14, 2026:** Q4 2025 13F filing due
+- **Late Feb 2026:** Q4 10-K and annual shareholder letter
+- **Q1 2026:** First full quarter under Abel
 
 ### Principle:
 
-We're not trying to **predict** which thesis wins. We're trying to **recognize** when the market signals which thesis **is winning**.
+We're gathering intelligence, not making predictions. We're looking for **early signals** of narrative shifts—when sentiment starts to coalesce, when data patterns confirm, when questions get answered.
 
-The evidence will tell us when to migrate from one view to another. Until then, we accumulate data points.
-
----
-
-## W52 Summary (for context):
-
-- BRK.B: -2.34% weekly, -8.15pp vs SPY YTD (gap widening)
-- Stock performance supports bear case
-- Q3 operating fundamentals support bull case (BNSF +10% earnings, BHE +9.9% margins, Manufacturing +24.3% industrial earnings)
-- Market appears to be pricing equity portfolio (tech-light) rather than operating businesses (XLI/XLU exposure)
-- Too early to call which thesis is winning
+The goal: Recognize when the story is changing **before** it's obvious to everyone.
 
 ---
 
 ## Reminder for AI Agent:
 
 When you run next week's radar:
-1. Read `competing_narratives_2026.json` during Phase 2 or 3
-2. As you gather news/data, mentally tag evidence as supporting/challenging each thesis
-3. Update the evidence_log and weekly_evaluation sections
-4. Note any inflection points or pattern changes
-5. Keep the analysis organic—don't force it into a narrative
+1. Read `market_intelligence_log.json` first (Step 2.0)
+2. Stay curious—capture interesting ideas even if contradictory
+3. Note sentiment shifts and data patterns
+4. Update the log organically—no forcing
+5. If an inflection point emerges, highlight it
 
-The goal is to be **early** in recognizing when one thesis starts winning, so we can adjust positioning before it's obvious to everyone.
+**Trust the process.** Over time, scattered observations will coalesce into clear patterns. Your job is to gather intelligence, not force interpretations.
