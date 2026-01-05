@@ -46,60 +46,121 @@
       "historical_parallels": [
         "1999-2000: Buffett underperformed dramatically refusing to buy dot-com stocks, then vindicated when bubble burst. Is 2025-2026 a repeat?"
       ]
+    },
+    "2026-W01": {
+      "date": "2026-01-05",
+      "market_context": "First week of Greg Abel's CEO tenure; OxyChem acquisition closes",
+      "ideas_captured": [
+        {
+          "source": "CNBC (Becky Quick interview with Buffett)",
+          "date": "2026-01-03",
+          "idea": "Abel as efficiency multiplier",
+          "summary": "Buffett stated Abel 'can get accomplished in a week' what Buffett does 'in a month.' Praised Abel's operational experience and hands-on management style while maintaining 'normal life' balance. Described Abel as 'the decider' with full authority.",
+          "sentiment": "bullish",
+          "key_quote": "I'd rather have Greg handling my money than any of the top investment advisors or any of the top CEOs in the United States."
+        },
+        {
+          "source": "Market reaction analysis",
+          "date": "2026-01-03",
+          "idea": "Succession discount persists",
+          "summary": "BRK.B fell 1.2% on Abel's first trading day while S&P 500 rose 0.2%. Some analysts describe this as 'succession discount' - investors pricing in uncertainty about performance without Buffett at the helm.",
+          "sentiment": "neutral/cautious",
+          "key_concern": "Market skepticism about whether Abel can match Buffett's track record"
+        },
+        {
+          "source": "OxyChem acquisition analysis",
+          "date": "2026-01-02",
+          "idea": "Immediate capital deployment signals proactive stance",
+          "summary": "$9.7B OxyChem acquisition closed on Abel's second day as CEO. Signals willingness to deploy cash into wholly-owned industrial businesses rather than waiting passively. OxyChem produces PVC and chlor-alkali chemicals (water treatment, pharma, construction).",
+          "sentiment": "bullish",
+          "key_insight": "Abel moving quickly to deploy capital, but into industrial assets (not overvalued public equities). Validates 'operating business focus' thesis."
+        }
+      ],
+      "sentiment_shifts": [
+        "Transition completed smoothly with strong Buffett endorsement, but market remains skeptical (stock down on first trading day)",
+        "Energy sector strength (OXY +5.69%, CVX +3.58%) validates Berkshire's positioning; financials weakness (MCO -3.18%, AXP -2.48%) raises economic concerns",
+        "OxyChem deal demonstrates Abel's proactive approach while maintaining Buffett's philosophy (wholly-owned businesses over public equities)"
+      ],
+      "data_patterns": [
+        "BRK.B underperformance gap IMPROVED dramatically: -8.15pp (2025 full year) → -1.39pp (2026 YTD as of W01)",
+        "Energy holdings outperformed: OXY +5.69% (best performer), CVX +3.58% - sector rotation signal?",
+        "Financial holdings underperformed: MCO -3.18% (worst performer), AXP -2.48% - credit concerns?",
+        "Apple concentration risk persists: AAPL -0.5% (40-45% of portfolio), underperformed in 2025, trades at 31x forward earnings",
+        "Cash deployment: $9.7B OxyChem reduces cash from $382B to ~$372B, but still record levels",
+        "Buyback signal remains bearish: 19 months without buybacks despite 14% decline from May 2025 peak"
+      ],
+      "questions_emerging": [
+        "Is the improved YTD performance (-1.39pp vs -8.15pp) a signal that the market is starting to re-rate Berkshire under Abel?",
+        "Will energy sector strength continue? OXY/CVX outperformance suggests possible sector rotation from tech to industrials/energy",
+        "Why are financials (MCO, AXP) weak? Credit market concerns? Economic slowdown signal?",
+        "Will Abel maintain the $372B cash position or deploy more aggressively in Q1 2026?",
+        "Is the OxyChem deal a template for future deployments (large, wholly-owned industrial assets)?"
+      ],
+      "inflection_signals_detected": [
+        "POSSIBLE INFLECTION: BRK.B underperformance gap improved from -8.15pp (2025) to -1.39pp (2026 YTD). Too early to call, but watch for continued narrowing.",
+        "SECTOR ROTATION SIGNAL: Energy significantly outperformed (OXY +5.69%, CVX +3.58%) while tech/financials lagged. Aligns with Socci's 'XLI/XLU rotation' thesis.",
+        "ABEL'S FIRST MOVE: OxyChem acquisition demonstrates proactive capital deployment philosophy while staying true to Buffett's principles (wholly-owned businesses, not overvalued equities)."
+      ]
     }
   },
   "evolving_themes": {
     "cash_position_interpretation": {
       "current_views": [
         "Bear view: Defensive drag on returns in bull market, declining yields will erode income",
-        "Bull view: Strategic optionality + earnings support ($11B annually) + downside protection"
+        "Bull view: Strategic optionality + earnings support ($11B annually) + downside protection",
+        "NEW (W01): Abel deploying selectively into wholly-owned businesses (OxyChem $9.7B) rather than public equities"
       ],
-      "watch_for": "Cash deployment signals (into what sectors?) or continued hoarding"
+      "watch_for": "Cash deployment signals (into what sectors?) or continued hoarding. OxyChem deal suggests focus on industrial assets."
     },
     "greg_abel_transition": {
       "current_views": [
         "Expectations: More hands-on management, operational improvements, potential 'cut fat' in divisions",
         "Uncertainty: Will he maintain Buffett's defensive posture or shift toward tech/growth?",
-        "Advice from analysts: 'Don't try to be Warren Buffett' - forge own path"
+        "Advice from analysts: 'Don't try to be Warren Buffett' - forge own path",
+        "NEW (W01): Buffett's endorsement was exceptionally strong; Abel described as efficiency multiplier ('week vs month')",
+        "NEW (W01): First move was immediate and decisive (OxyChem on day 2), signaling proactive stance"
       ],
-      "watch_for": "First 90 days (Jan-Mar 2026): strategic announcements, portfolio moves, operational changes, first shareholder letter"
+      "watch_for": "First 90 days (Jan-Mar 2026): strategic announcements, portfolio moves, operational changes, first shareholder letter. OxyChem deal is first data point."
     },
     "sector_dynamics": {
       "current_views": [
         "Tech dominance: Magnificent 7 continue leading, growth over value",
         "Rotation possibility: Industrial/utility fundamentals improving, equal-weight could outperform cap-weight",
-        "Energy weakness: OXY, CVX declining; BNSF facing rail merger competition"
+        "Energy weakness: OXY, CVX declining; BNSF facing rail merger competition",
+        "NEW (W01): Energy sector STRENGTH this week - OXY +5.69%, CVX +3.58%. Possible early rotation signal?",
+        "NEW (W01): Financial sector WEAKNESS - MCO -3.18%, AXP -2.48%. Credit concerns or profit-taking?"
       ],
-      "watch_for": "XLI/XLU vs SPY performance, RSP vs SPY, Mag 7 momentum continuing or fading"
+      "watch_for": "XLI/XLU vs SPY performance, RSP vs SPY, Mag 7 momentum continuing or fading. W01 shows energy strength - watch for continuation."
     },
     "operating_business_signals": {
       "bnsf": {
         "latest": "Q3 2025: +10% YTD after-tax earnings despite mixed volumes; pricing power demonstrated",
-        "watch_for": "Volume trends (especially industrial products), pricing discipline continuing, freight mix changes"
+        "watch_for": "Volume trends (especially industrial products), pricing discipline continuing, freight mix changes. Q4 data due late Feb 2026."
       },
       "bhe": {
         "latest": "Q3 2025: +9.9% YTD electric utility margin, retail volumes +2.7%, $3.1B new debt issued for capex",
-        "watch_for": "Margin trends, capex deployment pace, regulated return realization"
+        "watch_for": "Margin trends, capex deployment pace, regulated return realization. Q4 data due late Feb 2026."
       },
       "manufacturing": {
         "latest": "Q3 2025: Industrial products +24.3% pre-tax earnings, volume acceleration (Q3 -1.9% vs YTD -3.8%)",
-        "watch_for": "Volume inflection points, margin expansion continuing, building products stabilization"
+        "watch_for": "Volume inflection points, margin expansion continuing, building products stabilization. Q4 data due late Feb 2026."
       }
     }
   },
   "inflection_signals_to_watch": [
-    "Greg Abel's first strategic moves (Jan 1, 2026 onward)",
+    "Greg Abel's first strategic moves (Jan 1, 2026 onward) - OxyChem deal is first data point",
     "Q4 2025 13F filing (due Feb 14) - portfolio changes, cash position",
-    "Sector performance divergence (XLI/XLU outperforming or underperforming SPY)",
-    "BRK.B performance gap narrowing or widening beyond -10pp",
-    "Operating business trend changes (volume acceleration, margin pressure)",
-    "Major cash deployment announcement"
+    "Sector performance divergence (XLI/XLU outperforming or underperforming SPY) - W01 shows energy strength",
+    "BRK.B performance gap narrowing or widening beyond -10pp - IMPROVED to -1.39pp in W01 (watch for continuation)",
+    "Operating business trend changes (volume acceleration, margin pressure) - Q4 data due late Feb",
+    "Major cash deployment announcement - OxyChem was $9.7B; watch for more deals"
   ],
   "notes": [
     "Don't force conclusions—let patterns emerge over time",
     "Capture interesting ideas even if contradictory",
     "Watch for sentiment coalescence (when multiple sources start agreeing)",
     "Early signals matter: recognize when narrative is shifting before it's obvious",
-    "This is intelligence gathering, not prediction"
+    "This is intelligence gathering, not prediction",
+    "W01 UPDATE: Possible early inflection signals (underperformance gap narrowing, energy sector strength, Abel's proactive stance). Too early to confirm, but worth monitoring closely."
   ]
 }

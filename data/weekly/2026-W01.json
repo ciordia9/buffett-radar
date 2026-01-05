@@ -1,0 +1,227 @@
+{
+  "week_id": "2026-W01",
+  "date_range": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "timestamp": "2026-01-05T13:10:00.000000",
+  "sec_filings": {
+    "new_filings": [
+      {
+        "date": "2026-01-02",
+        "type": "Press Release",
+        "title": "Berkshire Hathaway Completes Acquisition of OxyChem",
+        "summary": "Berkshire completed its $9.7 billion acquisition of Occidental Petroleum's chemical subsidiary, OxyChem, on January 2, 2026. The deal closed on Greg Abel's second day as CEO. OxyChem is a leading producer of PVC and chlor-alkali chemicals used in water treatment, pharmaceuticals, and construction. This represents a significant deployment of capital into a wholly-owned industrial business.",
+        "source_url": "https://www.berkshirehathaway.com/news/jan0226.pdf",
+        "significance": "First major capital deployment under Abel's leadership; reduces cash position from $382B to ~$372B; signals continued focus on wholly-owned industrial assets rather than public equities"
+      }
+    ],
+    "latest_13f": {
+      "date": "2025-11-14",
+      "quarter": "Q3-2025",
+      "total_value": 267300000000,
+      "holdings_count": 45
+    },
+    "next_13f_expected": "2026-02-14",
+    "next_major_filing": "Q4 2025 10-K expected late February 2026"
+  },
+  "berkshire_stock": {
+    "brk_b": {
+      "price_close": 496.85,
+      "weekly_change_pct": -0.73,
+      "ytd_return_pct": -1.19,
+      "vs_sp500_ytd": -1.39,
+      "52week_high": 542.07,
+      "52week_low": 440.1,
+      "distance_from_52w_high_pct": -8.3
+    },
+    "brk_a": {
+      "price_close": 744120.0,
+      "weekly_change_pct": -0.86,
+      "ytd_return_pct": -1.41,
+      "52week_high": 812855.0,
+      "52week_low": 660640.0,
+      "distance_from_52w_high_pct": -8.5
+    },
+    "sp500_comparison": {
+      "sp500_close": 6858.47,
+      "sp500_weekly_change_pct": -0.74,
+      "sp500_ytd_return_pct": 0.2
+    }
+  },
+  "cash_position": {
+    "total_cash_billions": 372,
+    "as_of_date": "2026-01-02",
+    "quarter": "Q4-2025 (estimated)",
+    "qoq_change_billions": -10,
+    "cash_to_equity_ratio": 1.39,
+    "note": "Cash reduced by $9.7B OxyChem acquisition; Q3 was $381.7B, now estimated ~$372B"
+  },
+  "buyback_activity": {
+    "last_buyback_date": "2024-05-31",
+    "months_since_buyback": 19,
+    "ytd_buybacks_billions": 0,
+    "signal": "Bearish - No buybacks for 19 months despite 14% decline from May 2025 peak suggests management sees limited value even at current prices"
+  },
+  "portfolio_changes": {
+    "new_positions": [],
+    "major_reductions": [],
+    "exits": [],
+    "note": "No 13F data yet for Q4 2025; next filing due Feb 14, 2026"
+  },
+  "top_holdings_performance": [
+    {
+      "rank": 1,
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "portfolio_pct": 22.6,
+      "price": 271.01,
+      "weekly_change_pct": -0.5,
+      "ytd_return_pct": 0.4,
+      "value_billions": 60.3,
+      "note": "Largest holding continues to underperform; trades at 31x forward earnings"
+    },
+    {
+      "rank": 2,
+      "ticker": "AXP",
+      "company": "American Express",
+      "portfolio_pct": 18.8,
+      "price": 372.73,
+      "weekly_change_pct": -2.48,
+      "ytd_return_pct": 0.97,
+      "value_billions": 49.1,
+      "note": "Worst performer among major holdings; Buffett's 'forever' holding showing weakness"
+    },
+    {
+      "rank": 3,
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "portfolio_pct": 11.0,
+      "price": 55.95,
+      "weekly_change_pct": -0.04,
+      "ytd_return_pct": 0.0,
+      "value_billions": 35.0,
+      "note": "Flat performance; trading near 52-week high"
+    },
+    {
+      "rank": 4,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "portfolio_pct": 9.9,
+      "price": 69.12,
+      "weekly_change_pct": -1.07,
+      "ytd_return_pct": 0.0,
+      "value_billions": 18.6,
+      "note": "Modest decline for defensive consumer staples holding"
+    },
+    {
+      "rank": 5,
+      "ticker": "CVX",
+      "company": "Chevron",
+      "portfolio_pct": 7.1,
+      "price": 155.9,
+      "weekly_change_pct": 3.58,
+      "ytd_return_pct": 0.0,
+      "value_billions": 10.0,
+      "note": "Strong energy sector performance"
+    },
+    {
+      "rank": 6,
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "portfolio_pct": 4.7,
+      "price": 42.38,
+      "weekly_change_pct": 5.69,
+      "ytd_return_pct": 0.0,
+      "value_billions": 6.1,
+      "note": "BEST PERFORMER - Surged on OxyChem deal completion; validates Berkshire's 28% stake"
+    },
+    {
+      "rank": 7,
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "portfolio_pct": 3.8,
+      "price": 24.39,
+      "weekly_change_pct": 2.91,
+      "ytd_return_pct": 0.0,
+      "value_billions": 4.9,
+      "note": "Modest recovery but still well below 52-week high"
+    },
+    {
+      "rank": 8,
+      "ticker": "MCO",
+      "company": "Moody's Corporation",
+      "portfolio_pct": 3.5,
+      "price": 498.98,
+      "weekly_change_pct": -3.18,
+      "ytd_return_pct": 0.0,
+      "value_billions": 4.5,
+      "note": "Second-worst performer; credit rating agency weakness may signal economic concerns"
+    },
+    {
+      "rank": 9,
+      "ticker": "VZ",
+      "company": "Verizon",
+      "portfolio_pct": 2.1,
+      "price": 40.52,
+      "weekly_change_pct": 1.5,
+      "ytd_return_pct": 0.0,
+      "value_billions": 2.7,
+      "note": "Modest positive movement for telecom holding"
+    }
+  ],
+  "news_events": [
+    {
+      "date": "2026-01-01",
+      "source": "CNBC, Multiple Sources",
+      "title": "Warren Buffett Retires as CEO; Greg Abel Takes Helm",
+      "summary": "Warren Buffett officially stepped down as CEO of Berkshire Hathaway on January 1, 2026, after 60 years. Greg Abel, 63, former Vice Chairman of Non-Insurance Operations, assumed the CEO role. Buffett, 95, remains as Chairman of the Board with 30% voting control and plans to come to the office daily.",
+      "key_quote": "I'd rather have Greg handling my money than any of the top investment advisors or any of the top CEOs in the United States. - Warren Buffett (CNBC interview, May 2025)",
+      "significance": "Historic leadership transition. Buffett's strong endorsement provides Abel with clear mandate. Abel described as 'the decider' for all operational and capital allocation decisions."
+    },
+    {
+      "date": "2026-01-03",
+      "source": "CNBC",
+      "title": "Buffett Backs New CEO Abel with 'Huge Endorsement' in CNBC Interview",
+      "summary": "CNBC aired excerpts from May 2025 interview where Buffett praised Abel's efficiency ('can get accomplished in a week' what Buffett does 'in a month') and operational experience. Buffett stated Abel will handle his $147.5B fortune and that Berkshire 'has a better chance of being here a hundred years from now than any company I can think of.'",
+      "significance": "Reinforces confidence in transition; provides context for Abel's management philosophy (more hands-on than Buffett's decentralized approach)"
+    },
+    {
+      "date": "2026-01-03",
+      "source": "MarketWatch, Multiple Sources",
+      "title": "Berkshire Shares Dip on First Trading Day Under Greg Abel",
+      "summary": "BRK.A fell 1.4% and BRK.B fell 1.2% on January 3, 2026, Abel's first trading day as CEO. S&P 500 rose 0.2%. Some analysts describe this as a 'succession discount' - investors pricing in uncertainty about performance without Buffett.",
+      "significance": "Market reaction muted but slightly negative; continues 2025 underperformance trend"
+    }
+  ],
+  "market_signals": {
+    "buyback_signal": "bearish",
+    "buyback_interpretation": "No buybacks for 19 months despite 14% decline from peak. Strong signal management sees limited value at current prices or is preserving cash for better opportunities.",
+    "cash_hoard_signal": "maximum_caution",
+    "cash_interpretation": "Record $372B cash (after $9.7B OxyChem deployment) represents largest position in history. Net seller of stocks for 12 consecutive quarters. Signals defensive positioning and expectation of more attractive opportunities ahead.",
+    "portfolio_activity_signal": "defensive",
+    "portfolio_interpretation": "Sustained net selling, focus on wholly-owned businesses over public equities, energy sector concentration suggests cautious outlook on current market valuations (S&P 500 at 31.3x trailing P/E).",
+    "energy_positioning_signal": "bullish",
+    "energy_interpretation": "Large CVX and OXY positions plus $9.7B OxyChem acquisition demonstrate conviction in traditional energy despite ESG headwinds. Both energy stocks outperformed this week.",
+    "apple_concentration_risk": "concerning",
+    "concentration_interpretation": "40-45% of equity portfolio in single stock (AAPL) creates vulnerability. Apple underperformed S&P 500 in 2025 and trades at premium valuation (31x forward earnings)."
+  },
+  "analyst_notes": {
+    "week_summary": "Week 2026-W01 marks the official beginning of the Greg Abel era at Berkshire Hathaway. The CEO transition was smooth and well-telegraphed, with Buffett providing an exceptionally strong endorsement of his successor. Abel's first major move was immediate: closing the $9.7 billion OxyChem acquisition on his second day as CEO, signaling a proactive stance and continued focus on wholly-owned industrial assets.",
+    "key_developments": [
+      "CEO transition completed January 1, 2026 - Buffett steps down but remains Chairman",
+      "OxyChem acquisition closed January 2, 2026 - First major capital deployment under Abel",
+      "Energy sector outperformed: OXY +5.69%, CVX +3.58% - validates Berkshire's energy bet",
+      "Financial holdings showed weakness: MCO -3.18%, AXP -2.48% - potential economic concerns",
+      "Berkshire stock down 0.7-0.9% for week, tracking S&P 500's -0.74% decline",
+      "No new SEC filings in past 7 days (typical for holiday week)"
+    ],
+    "strategic_interpretation": "Berkshire's market posture remains highly defensive despite the leadership change. The record cash position ($372B after OxyChem), absence of buybacks for 19 months, and sustained net selling of equities all point to maximum caution regarding current market valuations. The OxyChem deal demonstrates Abel's willingness to deploy capital, but into wholly-owned businesses rather than overvalued public equities. The energy sector strength (OXY, CVX) validates Berkshire's significant exposure, while weakness in financials (MCO, AXP) may signal concerns about credit conditions or economic headwinds ahead.",
+    "inflection_signals": [
+      "Greg Abel's first 90 days as CEO (Jan-Mar 2026) - watch for strategic announcements, portfolio moves, operational changes",
+      "Q4 2025 13F filing due Feb 14, 2026 - will reveal any major portfolio changes or further cash accumulation",
+      "Sector performance divergence - energy outperforming, financials underperforming; watch for broader rotation signals",
+      "BRK.B underperformance gap currently -1.39pp YTD vs S&P 500 (improved from -8.15pp in 2025) - watch for narrowing or widening"
+    ]
+  }
+}
