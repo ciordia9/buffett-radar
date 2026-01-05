@@ -1,0 +1,134 @@
+{
+  "AAPL": {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "current_price": 271.01,
+    "weekly_change_pct": -0.5,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 288.62,
+    "52_week_low": 169.21,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:42.758391"
+  },
+  "BAC": {
+    "ticker": "BAC",
+    "company_name": "Bank of America",
+    "current_price": 55.95,
+    "weekly_change_pct": -0.04,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 56.55,
+    "52_week_low": 33.07,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:43.604076"
+  },
+  "AXP": {
+    "ticker": "AXP",
+    "company_name": "American Express",
+    "current_price": 372.73,
+    "weekly_change_pct": -2.48,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 387.49,
+    "52_week_low": 220.43,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:44.211615"
+  },
+  "KO": {
+    "ticker": "KO",
+    "company_name": "Coca-Cola",
+    "current_price": 69.12,
+    "weekly_change_pct": -1.07,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 74.38,
+    "52_week_low": 60.62,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:45.391973"
+  },
+  "CVX": {
+    "ticker": "CVX",
+    "company_name": "Chevron",
+    "current_price": 155.9,
+    "weekly_change_pct": 3.58,
+    "ytd_performance_pct": 0.0,
+    "52_week_high": 168.96,
+    "52_week_low": 132.04,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:46.694145"
+  },
+  "OXY": {
+    "ticker": "OXY",
+    "company_name": "Occidental Petroleum",
+    "current_price": 42.38,
+    "weekly_change_pct": 5.69,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 53.2,
+    "52_week_low": 34.78,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:47.901340"
+  },
+  "KHC": {
+    "ticker": "KHC",
+    "company_name": "Kraft Heinz",
+    "current_price": 24.39,
+    "weekly_change_pct": 2.91,
+    "ytd_performance_pct": 0.0,
+    "52_week_high": 33.35,
+    "52_week_low": 23.6,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:48.839567"
+  },
+  "MCO": {
+    "ticker": "MCO",
+    "company_name": "Moody's Corporation",
+    "current_price": 498.98,
+    "weekly_change_pct": -3.18,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 531.93,
+    "52_week_low": 378.71,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:50.892208"
+  },
+  "VZ": {
+    "ticker": "VZ",
+    "company_name": "Verizon",
+    "current_price": 40.52,
+    "weekly_change_pct": 1.5,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 47.36,
+    "52_week_low": 37.59,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:51.641679"
+  },
+  "BRK-B": {
+    "ticker": "BRK-B",
+    "company_name": "Berkshire Hathaway Class B",
+    "current_price": 496.85,
+    "weekly_change_pct": -0.73,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 542.07,
+    "52_week_low": 440.1,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:06:53.091957"
+  },
+  "BRK-A": {
+    "ticker": "BRK-A",
+    "company_name": "Berkshire Hathaway Class A",
+    "current_price": 744120.0,
+    "weekly_change_pct": -0.86,
+    "ytd_performance_pct": null,
+    "52_week_high": 812855.0,
+    "52_week_low": 660640.0,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:07:03.735729"
+  },
+  "^GSPC": {
+    "ticker": "^GSPC",
+    "company_name": "S&P 500 Index",
+    "current_price": 6858.47,
+    "weekly_change_pct": -0.74,
+    "ytd_performance_pct": -0.0,
+    "52_week_high": 6945.77,
+    "52_week_low": 4835.04,
+    "market_cap": null,
+    "last_updated": "2026-01-05T06:07:04.496285"
+  }
+}
