@@ -1,0 +1,198 @@
+{
+  "week_id": "2026-W03",
+  "date_range": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "timestamp": "2026-01-12T06:03:51.869172",
+  "sec_filings": {
+    "new_filings": [
+      {
+        "date": "2026-01-06",
+        "type": "8-K/A",
+        "description": "Amended Current Report, Item 5.02 (CEO transition documentation)",
+        "significance": "Formal SEC documentation of Warren Buffett to Greg Abel CEO transition",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983"
+      }
+    ],
+    "latest_13f": {
+      "date": "2025-11-14",
+      "quarter": "Q3-2025",
+      "total_value": 267300000000,
+      "holdings_count": 45
+    }
+  },
+  "berkshire_stock": {
+    "brk_b": {
+      "price_close": 499.1,
+      "weekly_change_pct": 0.12,
+      "ytd_return_pct": 0.45,
+      "vs_sp500_ytd": -1.14,
+      "52week_high": 542.07,
+      "52week_low": 440.1
+    }
+  },
+  "cash_position": {
+    "total_cash_billions": 382,
+    "as_of_date": "2025-09-30",
+    "quarter": "Q3-2025",
+    "qoq_change_billions": 28,
+    "cash_to_equity_ratio": 1.43
+  },
+  "buyback_activity": {
+    "last_buyback_date": "2024-05-31",
+    "months_since_buyback": 18,
+    "ytd_buybacks_billions": 0
+  },
+  "portfolio_changes": {
+    "new_positions": [],
+    "major_reductions": [],
+    "exits": []
+  },
+  "top_holdings_performance": [
+    {
+      "rank": 1,
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "portfolio_pct": 22.6,
+      "price": 259.37,
+      "weekly_change_pct": -2.95,
+      "value_billions": 60.7
+    },
+    {
+      "rank": 2,
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "portfolio_pct": 11.0,
+      "price": 55.85,
+      "weekly_change_pct": -1.83,
+      "value_billions": 35.0
+    },
+    {
+      "rank": 3,
+      "ticker": "AXP",
+      "company": "American Express",
+      "portfolio_pct": 18.8,
+      "price": 375.61,
+      "weekly_change_pct": -1.1,
+      "value_billions": 49.5
+    },
+    {
+      "rank": 4,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "portfolio_pct": 9.9,
+      "price": 70.51,
+      "weekly_change_pct": 3.78,
+      "value_billions": 18.8
+    },
+    {
+      "rank": 5,
+      "ticker": "CVX",
+      "company": "Chevron",
+      "portfolio_pct": 7.1,
+      "price": 162.11,
+      "weekly_change_pct": -1.06,
+      "value_billions": 9.6
+    },
+    {
+      "rank": 6,
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "portfolio_pct": 4.7,
+      "price": 42.86,
+      "weekly_change_pct": 3.95,
+      "value_billions": 12.0
+    },
+    {
+      "rank": 7,
+      "ticker": "MCO",
+      "company": "Moody's",
+      "portfolio_pct": 4.4,
+      "price": 531.61,
+      "weekly_change_pct": 0.9,
+      "value_billions": 11.5
+    },
+    {
+      "rank": 8,
+      "ticker": "CB",
+      "company": "Chubb Ltd",
+      "portfolio_pct": 3.3,
+      "price": 306.81,
+      "weekly_change_pct": -2.66,
+      "value_billions": 8.8
+    },
+    {
+      "rank": 9,
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "portfolio_pct": 3.2,
+      "price": 23.42,
+      "weekly_change_pct": -1.47,
+      "value_billions": 8.5
+    },
+    {
+      "rank": 10,
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "portfolio_pct": 1.6,
+      "price": 328.57,
+      "weekly_change_pct": 3.8,
+      "value_billions": 4.3
+    }
+  ],
+  "news_events": [
+    {
+      "date": "2026-01-10",
+      "source": "Motley Fool",
+      "headline": "Warren Buffett Left Wall Street 3 Deafening Warnings Before Retiring",
+      "summary": "Analysis of Buffett's final moves: (1) Sold S&P 500 ETFs, (2) Net seller of $184B stocks, (3) $382B cash position. Interpretation: Buffett believes market unsustainable at current levels.",
+      "significance": "high",
+      "sentiment": "bearish on market valuations"
+    },
+    {
+      "date": "2026-01-11",
+      "source": "Seeking Alpha",
+      "headline": "What We Can Learn From Warren Buffett's Mistakes Going Forward",
+      "summary": "Contrarian view: BRK.B has underperformed S&P 500 for 17 years (445.77% vs 554.84%). Argues value investing era is over, tech dominance is permanent.",
+      "significance": "medium",
+      "sentiment": "bearish on Berkshire"
+    },
+    {
+      "date": "2026-01-11",
+      "source": "RTO Insider",
+      "headline": "MISO Picks AEP, Berkshire's Joint Venture to build $1.2B 765-kV Line",
+      "summary": "Berkshire Hathaway Energy Transmission wins $1.2B ultra-high voltage transmission project. Part of MISO's Long-Range Transmission Plan.",
+      "significance": "high",
+      "sentiment": "bullish on operating businesses"
+    }
+  ],
+  "market_signals": {
+    "cash_hoard_signal": "maximum_caution",
+    "buyback_signal": "bearish",
+    "portfolio_activity": "net_seller",
+    "overall_sentiment": "defensive"
+  },
+  "analyst_notes": {
+    "key_takeaways": [
+      "BRK.B underperformance gap narrowing: -8.15pp (2025) \u2192 -1.14pp (W03 YTD). Three consecutive weeks of improvement.",
+      "Capital deployment pattern emerging: $10.9B deployed in 2 weeks (OxyChem $9.7B + BHE transmission $1.2B) into wholly-owned industrial/utility assets.",
+      "'Buffett's 3 warnings' narrative gaining traction: Media framing defensive positioning as prescient market timing.",
+      "S&P 500 at record 6,966 - extreme divergence between market euphoria and Berkshire's $372B cash caution.",
+      "Top holdings mixed: Consumer/energy strength (KO +3.78%, OXY +3.95%) vs. mega-cap tech/financials weakness (AAPL -2.95%, BAC -1.83%)."
+    ],
+    "week_over_week_changes": [
+      "BRK.B: +0.12% weekly, +0.45% YTD (vs. S&P 500 +1.59% YTD, gap -1.14pp)",
+      "Underperformance gap improved from -1.39pp (W01) to -1.14pp (W03)",
+      "Energy holdings continuing strength: OXY +3.95% (best performer among top 10)",
+      "Apple weakness continues: -2.95% weekly (worst performer among top 10)",
+      "Cash position reduced to ~$372B after $9.7B OxyChem deployment"
+    ],
+    "positioning_assessment": {
+      "market_valuation": "EXTREME: S&P 500 at 6,966 (record high), 32% above first deployment trigger (4,720)",
+      "berkshire_stance": "MAXIMUM CAUTION: $372B cash (30% of assets), 18 months without buybacks, net seller of $184B stocks over 2 years",
+      "deployment_watch": "Abel deploying selectively into wholly-owned assets (OxyChem, BHE transmission), not overvalued public equities",
+      "inflection_signals": "Underperformance gap narrowing, 'Buffett warnings' narrative gaining traction, capital deployment pattern emerging"
+    }
+  }
+}
