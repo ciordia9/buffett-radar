@@ -1,0 +1,189 @@
+{
+  "week_id": "2026-W04",
+  "date_range": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "timestamp": "2026-01-19T06:04:45.294002",
+  "sec_filings": {
+    "new_filings": [
+      {
+        "type": "8-K/A (Amended)",
+        "date": "2026-01-06",
+        "description": "CEO transition formalization (Warren Buffett to Greg Abel)",
+        "significance": "Administrative filing, no new material information"
+      }
+    ],
+    "latest_13f": {
+      "date": "2025-11-14",
+      "quarter": "Q3-2025",
+      "total_value": 267300000000,
+      "holdings_count": 45
+    }
+  },
+  "berkshire_stock": {
+    "brk_b": {
+      "price_close": 493.29,
+      "weekly_change_pct": -1.08,
+      "ytd_return_pct": -0.72,
+      "vs_sp500_ytd": -1.96,
+      "52week_high": 542.07,
+      "52week_low": 454.6
+    }
+  },
+  "cash_position": {
+    "total_cash_billions": 382,
+    "as_of_date": "2025-09-30",
+    "quarter": "Q3-2025",
+    "qoq_change_billions": 28,
+    "cash_to_equity_ratio": 1.43
+  },
+  "buyback_activity": {
+    "last_buyback_date": "2024-05-31",
+    "months_since_buyback": 18,
+    "ytd_buybacks_billions": 0
+  },
+  "portfolio_changes": {
+    "new_positions": [],
+    "major_reductions": [],
+    "exits": []
+  },
+  "top_holdings_performance": [
+    {
+      "rank": 1,
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "portfolio_pct": 22.6,
+      "price": 255.53,
+      "weekly_change_pct": -1.81,
+      "value_billions": 60.7
+    },
+    {
+      "rank": 2,
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "portfolio_pct": 11.0,
+      "price": 52.97,
+      "weekly_change_pct": -4.02,
+      "value_billions": 35.0
+    },
+    {
+      "rank": 3,
+      "ticker": "AXP",
+      "company": "American Express",
+      "portfolio_pct": 18.8,
+      "price": 364.79,
+      "weekly_change_pct": 1.45,
+      "value_billions": 49.5
+    },
+    {
+      "rank": 4,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "portfolio_pct": 9.9,
+      "price": 70.44,
+      "weekly_change_pct": -0.09,
+      "value_billions": 18.8
+    },
+    {
+      "rank": 5,
+      "ticker": "CVX",
+      "company": "Chevron",
+      "portfolio_pct": 7.1,
+      "price": 166.26,
+      "weekly_change_pct": 2.41,
+      "value_billions": 9.6
+    },
+    {
+      "rank": 6,
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "portfolio_pct": 4.7,
+      "price": 42.7,
+      "weekly_change_pct": -0.05,
+      "value_billions": 12.0
+    },
+    {
+      "rank": 7,
+      "ticker": "MCO",
+      "company": "Moody's",
+      "portfolio_pct": 4.4,
+      "price": 538.92,
+      "weekly_change_pct": 0.71,
+      "value_billions": 11.5
+    },
+    {
+      "rank": 8,
+      "ticker": "CB",
+      "company": "Chubb Ltd",
+      "portfolio_pct": 3.3,
+      "price": 300.77,
+      "weekly_change_pct": -1.91,
+      "value_billions": 8.8
+    },
+    {
+      "rank": 9,
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "portfolio_pct": 3.2,
+      "price": 23.53,
+      "weekly_change_pct": 0.6,
+      "value_billions": 8.5
+    },
+    {
+      "rank": 10,
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "portfolio_pct": 1.6,
+      "price": 330.0,
+      "weekly_change_pct": -0.56,
+      "value_billions": 4.3
+    }
+  ],
+  "news_events": [
+    {
+      "date": "2026-01-13",
+      "source": "CNBC",
+      "headline": "Buffett still hunting for 'elephant' deals in final days as CEO",
+      "summary": "Never-before-seen interview reveals Buffett willing to spend $100B but 'I don't see anything' at current prices. Cash hoard is forced inaction, not strategy.",
+      "significance": "High - shifts narrative on cash position"
+    },
+    {
+      "date": "2026-01-15",
+      "source": "Benzinga/Yahoo Finance",
+      "headline": "Greg Abel earns $25M salary (250x Buffett's $100K)",
+      "summary": "Abel's compensation significantly higher than Buffett's symbolic $100K salary. Reasonable for $1.06T company but creates optics contrast.",
+      "significance": "Medium - potential narrative point if underperformance continues"
+    },
+    {
+      "date": "2026-01-13",
+      "source": "Business Wire",
+      "headline": "BNSF Railway reports safest year ever in 177-year history",
+      "summary": "Employee injury frequency down 10%, rail equipment incidents down 13%. Demonstrates operational excellence.",
+      "significance": "Medium - positive operating signal, but no revenue/volume data"
+    }
+  ],
+  "market_signals": {
+    "cash_hoard_signal": "maximum_caution",
+    "buyback_signal": "bearish",
+    "portfolio_activity": "net_seller",
+    "overall_sentiment": "defensive"
+  },
+  "analyst_notes": {
+    "key_takeaways": [
+      "BRK.B underperformance persists: -1.08% weekly, -0.72% YTD, lagging S&P 500 by -1.96pp",
+      "Buffett interview reveals cash hoard is 'forced inaction' at current valuations, not strategic preference",
+      "Top holdings mixed: Energy/consumer strength (CVX +2.41%) vs. financials weakness (BAC -4.02%)",
+      "S&P 500 at 6,940 - still 31% above Level 1 deployment trigger (4,720)",
+      "BNSF operational excellence continues (safest year ever), but financial performance data awaited",
+      "No SEC filings of material significance this week; next major filing is Q4 13F (due Feb 14)"
+    ],
+    "week_over_week_changes": [
+      "BRK.B weekly performance: -1.08% (vs S&P 500 performance: +0.22% estimated)",
+      "Underperformance gap widened slightly from -1.14pp (W03) to -1.96pp (W04)",
+      "Financials showing weakness: BAC -4.02% (largest decline in top holdings)",
+      "Energy continuing strength from previous weeks: CVX +2.41%",
+      "No new capital deployment announcements (OxyChem and BHE transmission from previous weeks)"
+    ]
+  }
+}
