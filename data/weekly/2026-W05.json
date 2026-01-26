@@ -1,0 +1,220 @@
+{
+  "week_id": "2026-W05",
+  "date_range": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "timestamp": "2026-01-26T06:05:08.681294",
+  "sec_filings": {
+    "new_filings": [],
+    "latest_13f": {
+      "date": "2025-11-14",
+      "quarter": "Q3-2025",
+      "total_value": 267300000000,
+      "holdings_count": 45
+    },
+    "notes": "No new SEC filings in past 7 days. Most recent filing was 8-K/A on 2026-01-06 documenting Greg Abel CEO transition. Next major filing: Q4 2025 13F due February 14, 2026."
+  },
+  "berkshire_stock": {
+    "brk_b": {
+      "price_close": 478.97,
+      "weekly_change_pct": -2.9,
+      "ytd_return_pct": -3.6,
+      "vs_sp500_ytd": -4.49,
+      "52week_high": 542.07,
+      "52week_low": 454.6
+    }
+  },
+  "cash_position": {
+    "total_cash_billions": 382,
+    "as_of_date": "2025-09-30",
+    "quarter": "Q3-2025",
+    "qoq_change_billions": 28,
+    "cash_to_equity_ratio": 1.43,
+    "notes": "Reduced to ~$372B after OxyChem acquisition ($9.7B). Kraft Heinz exit could add another $7.5B."
+  },
+  "buyback_activity": {
+    "last_buyback_date": "2024-05-31",
+    "months_since_buyback": 20,
+    "ytd_buybacks_billions": 0,
+    "signal": "Bearish - 20 months without buybacks despite stock down -11.6% from 52-week high"
+  },
+  "portfolio_changes": {
+    "new_positions": [],
+    "major_reductions": [
+      {
+        "ticker": "KHC",
+        "company": "Kraft Heinz",
+        "action": "SEC filing signals potential exit of 27.5% stake ($7.5B)",
+        "date": "2026-01-20",
+        "significance": "Abel's first major portfolio cleanup move - exiting Buffett-era mistake"
+      }
+    ],
+    "exits": []
+  },
+  "top_holdings_performance": [
+    {
+      "rank": 1,
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "portfolio_pct": 22.6,
+      "price": 248.04,
+      "weekly_change_pct": -2.93,
+      "value_billions": 60.7,
+      "notes": "Underperformed this week, concentration risk persists"
+    },
+    {
+      "rank": 2,
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "portfolio_pct": 11.0,
+      "price": 51.72,
+      "weekly_change_pct": -2.36,
+      "value_billions": 35.0,
+      "notes": "Continued weakness from W04 (-4.02%), credit concerns?"
+    },
+    {
+      "rank": 3,
+      "ticker": "AXP",
+      "company": "American Express",
+      "portfolio_pct": 18.8,
+      "price": 361.69,
+      "weekly_change_pct": -0.85,
+      "value_billions": 49.5,
+      "notes": "Relative outperformance vs other financials"
+    },
+    {
+      "rank": 4,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "portfolio_pct": 9.9,
+      "price": 72.88,
+      "weekly_change_pct": 3.46,
+      "value_billions": 18.8,
+      "notes": "Best performer - consumer staples showing defensive strength"
+    },
+    {
+      "rank": 5,
+      "ticker": "CVX",
+      "company": "Chevron",
+      "portfolio_pct": 7.1,
+      "price": 166.72,
+      "weekly_change_pct": 0.28,
+      "value_billions": 9.6,
+      "notes": "Energy sector mixed, modest gain"
+    },
+    {
+      "rank": 6,
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "portfolio_pct": 4.7,
+      "price": 44.1,
+      "weekly_change_pct": 3.28,
+      "value_billions": 12.0,
+      "notes": "Second best performer - energy showing relative strength"
+    },
+    {
+      "rank": 7,
+      "ticker": "MCO",
+      "company": "Moody's",
+      "portfolio_pct": 4.4,
+      "price": 524.04,
+      "weekly_change_pct": -2.76,
+      "value_billions": 11.5,
+      "notes": "Weakness continues, credit market concerns"
+    },
+    {
+      "rank": 8,
+      "ticker": "CB",
+      "company": "Chubb Ltd",
+      "portfolio_pct": 3.3,
+      "price": 300.91,
+      "weekly_change_pct": 0.05,
+      "value_billions": 8.8,
+      "notes": "Flat performance, insurance sector stable"
+    },
+    {
+      "rank": 9,
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "portfolio_pct": 3.2,
+      "price": 23.2,
+      "weekly_change_pct": -1.4,
+      "value_billions": 8.5,
+      "notes": "Exit signal filed - fell 7% after filing, near 6-year low"
+    },
+    {
+      "rank": 10,
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "portfolio_pct": 1.6,
+      "price": 327.93,
+      "weekly_change_pct": -0.63,
+      "value_billions": 4.3,
+      "notes": "Tech weakness, modest decline"
+    }
+  ],
+  "news_events": [
+    {
+      "date": "2026-01-20",
+      "headline": "Berkshire signals potential Kraft Heinz exit",
+      "source": "SEC filing / CNBC",
+      "significance": "HIGH",
+      "summary": "SEC filing reveals Berkshire may sell 'up to' almost all of its 27.5% KHC stake ($7.5B). Morningstar analyst views this as Abel's desire to clean up portfolio early in tenure. Stock fell 7% after filing."
+    },
+    {
+      "date": "2026-01-13",
+      "headline": "BNSF reports safest year in 177-year history",
+      "source": "Business Wire",
+      "significance": "MEDIUM",
+      "summary": "Employee injury frequency down 10%, rail equipment incidents down 13%. Demonstrates operational excellence but no revenue/volume data disclosed. Q4 financials due late February."
+    },
+    {
+      "date": "2026-01-23",
+      "headline": "S&P 500 posts back-to-back weekly losses near record highs",
+      "source": "MarketWatch",
+      "significance": "MEDIUM",
+      "summary": "S&P 500 closed at 6,915.61, near 52-week high of 6,986.33. Market showing signs of volatility despite elevated levels. Gold surged past $5,000 for first time (flight to safety signal?)."
+    }
+  ],
+  "market_signals": {
+    "cash_hoard_signal": "maximum_caution",
+    "buyback_signal": "bearish",
+    "portfolio_activity": "net_seller",
+    "overall_sentiment": "defensive",
+    "sp500_level": 6915.61,
+    "sp500_vs_deployment_triggers": {
+      "level_1_4720": "+32% above trigger",
+      "level_2_3800": "+45% above trigger",
+      "level_3_2950": "+57% above trigger"
+    }
+  },
+  "analyst_notes": {
+    "key_takeaways": [
+      "Underperformance gap WIDENING: -1.96pp (W04) → -4.49pp (W05 YTD). Trend deteriorating.",
+      "Abel's first major portfolio move: Kraft Heinz exit signal. Demonstrates willingness to clean up legacy mistakes.",
+      "Top holdings broadly weak: 7 of 10 declined this week. Only KO (+3.46%) and OXY (+3.28%) showed strength.",
+      "S&P 500 near record highs (6,915) while BRK.B down -3.6% YTD - extreme divergence.",
+      "Cash deployment pressure mounting: KHC exit adds $7.5B to ~$372B pile (after OxyChem)."
+    ],
+    "week_over_week_changes": [
+      "BRK.B weekly performance: -2.9% (worse than S&P 500)",
+      "Underperformance gap: -1.96pp (W04) → -4.49pp (W05 YTD) - WIDENING",
+      "Sector rotation NOT materializing: Energy mixed, financials weak, tech lagging",
+      "Portfolio cleanup beginning: Kraft Heinz exit signal is first major Abel move",
+      "Operating business updates: BNSF operational excellence (safety record) but financial data awaited"
+    ],
+    "concerns": [
+      "Underperformance accelerating rather than improving",
+      "Sector rotation thesis (XLI/XLU outperformance) not materializing",
+      "Financials showing persistent weakness (BAC, MCO)",
+      "Market at extreme valuations while Berkshire defensive - timing risk"
+    ],
+    "opportunities": [
+      "Abel's proactive portfolio cleanup could unlock value if followed by smart redeployment",
+      "Market at extreme valuations (S&P 6,915, gold $5,000) - defensive positioning could be prescient",
+      "Operating business quality (BNSF safety record) not reflected in stock price",
+      "Q4 13F (Feb 14) could reveal final Buffett-era moves and provide clarity"
+    ]
+  }
+}

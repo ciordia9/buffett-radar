@@ -1,0 +1,60 @@
+{
+  "2026-W05": {
+    "date": "2026-01-26",
+    "market_context": "S&P 500 near record highs (6,915), BRK.B underperformance accelerating",
+    "ideas_captured": [
+      {
+        "source": "CNBC / SEC filing",
+        "date": "2026-01-20",
+        "idea": "Abel as portfolio cleaner - exiting legacy mistakes",
+        "summary": "SEC filing reveals Berkshire may sell 'up to' almost all of its 27.5% Kraft Heinz stake ($7.5B). Morningstar analyst Greggory Warren views this as Abel's desire to 'clean up and pare down the investment portfolio early in his tenure.' Represents willingness to exit Buffett-era mistakes (paid $9.8B, now worth $7.5B, total loss $2.3B) rather than hold indefinitely. Buffett admitted in 2019: 'We overpaid for Kraft.'",
+        "sentiment": "neutral/proactive",
+        "key_insight": "Abel's first major portfolio move demonstrates decisiveness and willingness to admit mistakes. Pattern emerging: clean up legacy positions (Kraft Heinz) while deploying into wholly-owned industrial/utility assets (OxyChem $9.7B, BHE transmission $1.2B). This is portfolio management, not passive holding."
+      },
+      {
+        "source": "Market performance data",
+        "date": "2026-01-23",
+        "idea": "Sector rotation thesis failing to materialize",
+        "summary": "Despite Socci's W52 thesis that BRK is positioned for XLI/XLU sector rotation, five weeks into 2026 the data shows rotation is NOT happening. Financials persistently weak (BAC -2.36% W05, -4.02% W04; MCO -2.76% W05), energy mixed (OXY +3.28%, CVX +0.28%), tech lagging but not collapsing (AAPL -2.93%, GOOGL -0.63%). Only consumer staples (KO +3.46%) showing strength - defensive positioning, not rotation.",
+        "sentiment": "bearish on rotation thesis",
+        "key_concern": "If sector rotation doesn't materialize in 2026, Berkshire's underperformance could persist. Market still rewarding tech dominance. Value investors (including those with VIOV/DLS/DGS tilts) are not being rewarded."
+      },
+      {
+        "source": "Multiple sources",
+        "date": "2026-01-25",
+        "idea": "Market at extreme valuations with stress signals emerging",
+        "summary": "S&P 500 at 6,915 (near 52-week high of 6,986), but posted back-to-back weekly losses despite elevated levels. Gold surged past $5,000 for first time (flight to safety signal). Forward P/E 22.1 (above 5-year average 20.0). Extreme divergence: S&P near highs while BRK.B down -3.6% YTD, underperforming by -4.49pp.",
+        "sentiment": "cautious/defensive positioning validated",
+        "key_insight": "Market showing signs of stress at extreme valuations. Buffett/Abel's $372B cash hoard could be prescient if correction materializes. Timing uncertain but setup is concerning. Defensive positioning (21.5% cash for individual investors, 30% for Berkshire) is appropriate insurance."
+      }
+    ],
+    "sentiment_shifts": [
+      "Underperformance narrative intensifying: Gap widened from -1.96pp (W04) to -4.49pp (W05 YTD). 'End of an era' framing gaining traction in financial media.",
+      "Abel's portfolio cleanup (Kraft Heinz) viewed positively by analysts - demonstrates decisiveness and willingness to move on from mistakes rather than Buffett's tendency to hold forever.",
+      "Sector rotation optimism fading: Five weeks into 2026, data not supporting XLI/XLU outperformance thesis. Market still tech-dominated.",
+      "Cash deployment pressure mounting: KHC exit adds $7.5B to ~$372B pile (after OxyChem). Shareholders may push for dividend or more aggressive deployment if underperformance continues."
+    ],
+    "data_patterns": [
+      "BRK.B underperformance ACCELERATING: -1.96pp (W04) → -4.49pp (W05 YTD). Trend deteriorating, not improving. This is the wrong direction.",
+      "Top holdings broadly weak: 7 of 10 declined this week. Only KO (+3.46%) and OXY (+3.28%) showed strength. Portfolio-wide weakness.",
+      "Financials persistent weakness: BAC -2.36% (W05), -4.02% (W04). Two consecutive weeks of significant declines. Credit concerns or economic slowdown signal?",
+      "S&P 500 near record highs (6,915) while BRK.B down -3.6% YTD - extreme divergence. Market rewarding tech/growth, punishing value/defensiveness.",
+      "Operating business updates: BNSF safest year in 177-year history (injury frequency -10%, equipment incidents -13%), demonstrating operational excellence. But no revenue/volume data disclosed. Q4 financials due late February.",
+      "Cash position: ~$372B after OxyChem acquisition, could increase to ~$380B if Kraft Heinz exit completes. Record levels continue."
+    ],
+    "questions_emerging": [
+      "Is the underperformance gap widening (-4.49pp) a signal that the market has fundamentally re-rated Berkshire lower under Abel, or is this temporary volatility?",
+      "Will Abel's portfolio cleanup extend beyond Kraft Heinz? BAC has been persistently weak for two weeks - could it be next on the chopping block?",
+      "Where will the $7.5B from KHC exit be redeployed? More wholly-owned industrial assets (continuing OxyChem/BHE pattern), or will it sit in cash adding to deployment pressure?",
+      "Is the sector rotation thesis dead for 2026? If XLI/XLU don't outperform, what does that mean for Berkshire's operating businesses (BNSF, BHE, Manufacturing)?",
+      "Will Q4 13F (due Feb 14) reveal any final Buffett-era moves that provide clarity on his market assessment? Did he make any last-minute portfolio changes?",
+      "At what point does persistent underperformance trigger shareholder activism? Buffett's reputation shielded Berkshire, but will Abel have the same protection?"
+    ],
+    "inflection_signals_detected": [
+      "UNDERPERFORMANCE ACCELERATING: Gap widened from -1.96pp (W04) to -4.49pp (W05 YTD). This is the wrong direction. Watch closely for continuation (structural problem) or reversal (temporary volatility).",
+      "ABEL'S FIRST MAJOR MOVE: Kraft Heinz exit signal demonstrates willingness to clean up portfolio. If followed by smart redeployment (wholly-owned industrial/utility assets), could be positive. If cash just sits, pressure will mount for dividend or buybacks.",
+      "SECTOR ROTATION NOT HAPPENING: Five weeks into 2026, no clear evidence of XLI/XLU outperformance. Socci's thesis (W52) is not materializing. Tech dominance continuing. Value tilt not being rewarded.",
+      "MARKET STRESS SIGNALS: S&P 500 back-to-back weekly losses near record highs, gold at $5,000 (all-time high). Volatility increasing despite elevated valuations. Classic late-cycle behavior."
+    ]
+  }
+}
